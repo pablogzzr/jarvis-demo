@@ -6,6 +6,7 @@
   'use strict';
   const BASE = new URL('.', document.currentScript ? document.currentScript.src : location.href).href;
   const KEY = 'jarvis-demo-state-v1';
+  const VER = 'a1aade31';
 
   /* ── the clock: Thursday 22 Oct 2026, 08:10 in Boston, moving forward in real time ── */
   const DEMO_START = Date.UTC(2026, 9, 22, 12, 10, 0);   /* 08:10 EDT */
@@ -26,7 +27,7 @@
   const cache = {};
   const realFetch = window.fetch.bind(window);
   function get(name){
-    if(!cache[name]) cache[name] = realFetch(BASE + FILES[name]).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+    if(!cache[name]) cache[name] = realFetch(BASE + FILES[name] + '?v=' + VER).then(r => r.ok ? r.json() : {}).catch(() => ({}));
     return cache[name];
   }
   /* a reset wipes what the panel saved for itself before it starts again (it saves on the way out too) */
@@ -87,7 +88,12 @@
   };
 
   /* "Reset the demo" — back to the untouched morning */
-  window.jarvisDemoReset = function(){ try{ sessionStorage.clear(); sessionStorage.setItem('jarvis-demo-wipe', '1'); }catch(_){} location.reload(); };
+  window.jarvisDemoReset = function(){
+    /* the panel saves its morning on the way out, so stop every write first, then wipe */
+    const set = Storage.prototype.setItem; Storage.prototype.setItem = function(){};
+    try{ const seen = localStorage.getItem('jarvis-demo-tour-seen'); localStorage.clear(); sessionStorage.clear(); if(seen) set.call(localStorage, 'jarvis-demo-tour-seen', seen); }catch(_){}
+    location.reload();
+  };
 
   /* a small bottom note for actions that would leave the browser in the real Jarvis */
   function demoNote(text){

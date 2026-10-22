@@ -873,7 +873,7 @@ let curVT=null;
 function syncSheet(){ const open=!!sheetOpen, sh=$('#sheet'); $('#veil').classList.toggle('show',open); sh.classList.toggle('show',open); document.body.classList.toggle('lock',open); }
 function clearVTNames(){ $$('.tile,#sheet').forEach(e=>{ if(e.style.viewTransitionName) e.style.viewTransitionName=''; }); }
 function runVT(update,after){ if(curVT){ try{ curVT.skipTransition(); }catch(_){} }
-  let vt; try{ vt=document.startViewTransition(()=>{ update(); syncSheet(); }); }catch(_){ update(); syncSheet(); after&&after(); return; }
+  let vt, ran=false; const run=()=>{ if(ran) return; ran=true; update(); syncSheet(); }; try{ vt=document.startViewTransition(run); }catch(_){ run(); after&&after(); return; } setTimeout(()=>{ if(!ran){ try{ vt.skipTransition(); }catch(_){} setTimeout(run,150); } },400);
   curVT=vt; const done=()=>{ if(curVT===vt) curVT=null; clearVTNames(); syncSheet(); after&&after(); }; vt.finished.then(done,done); vt.ready.catch(()=>{}); vt.updateCallbackDone.catch(()=>{}); }
 function openSheet(k,kb,from){
   if(sheetOpen===k&&k!=='nota') return; SFX.play('open');
