@@ -1,0 +1,424 @@
+{
+ "corridas": [
+  {
+   "trabajo": "cabina",
+   "cuando": "2026-10-22T03:58",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "Your day: 6 events, 2 urgent emails, 2 people worth a message."
+  },
+  {
+   "trabajo": "taller",
+   "cuando": "2026-10-22T03:57",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "4 first-pass failures fixed and rerun; proposed industry targeting for cracks."
+  },
+  {
+   "trabajo": "tiempo",
+   "cuando": "2026-10-22T03:55",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Mon–Wed: 14 h Northbeam, 9 h classes."
+  },
+  {
+   "trabajo": "cracks",
+   "cuando": "2026-10-22T03:52",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "3 new people and 1 follow-up; reply rate 18% over 60 days."
+  },
+  {
+   "trabajo": "digest",
+   "cuando": "2026-10-22T03:49",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Episode on your feed: 14 min, 5 stories."
+  },
+  {
+   "trabajo": "linkedin",
+   "cuando": "2026-10-22T03:47",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "2 drafts ready; one question for you."
+  },
+  {
+   "trabajo": "coach",
+   "cuando": "2026-10-22T03:45",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "One meeting, one email."
+  },
+  {
+   "trabajo": "prep",
+   "cuando": "2026-10-22T03:41",
+   "resultado": "ok",
+   "produjo": 5,
+   "nota": "Prepped 5 meetings through Saturday; 3 must-reads."
+  },
+  {
+   "trabajo": "platicas",
+   "cuando": "2026-10-22T03:36",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "2 events and 1 call for speakers."
+  },
+  {
+   "trabajo": "seguimiento",
+   "cuando": "2026-10-22T03:33",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "Nora Lindqvist follow-up and Ben Carter map proposal."
+  },
+  {
+   "trabajo": "estudio",
+   "cuando": "2026-10-22T03:30",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Added the pilot-pricing note; 2 urgent."
+  },
+  {
+   "trabajo": "esperando",
+   "cuando": "2026-10-22T03:28",
+   "resultado": "ok",
+   "produjo": 6,
+   "nota": "6 open; one promise due today (Atlas proposal)."
+  },
+  {
+   "trabajo": "registro",
+   "cuando": "2026-10-22T03:24",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "2 new people, 1 group suggestion; checked against the CRM."
+  },
+  {
+   "trabajo": "conectar",
+   "cuando": "2026-10-22T03:22",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Sent 4 invites; 2 accepted since Tuesday."
+  },
+  {
+   "trabajo": "coach",
+   "cuando": "2026-10-22T03:20",
+   "resultado": "fallo",
+   "produjo": 0,
+   "nota": "Timed out reading yesterday's Granola transcripts."
+  },
+  {
+   "trabajo": "consejo",
+   "cuando": "2026-10-22T03:19",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "The Strategist: this week has one front."
+  },
+  {
+   "trabajo": "linkedin-mac",
+   "cuando": "2026-10-22T03:18",
+   "resultado": "ok",
+   "produjo": 8,
+   "nota": "Liked 6 posts; 2 comment drafts."
+  },
+  {
+   "trabajo": "leccion",
+   "cuando": "2026-10-22T03:15",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "The Goal, ch. 32, matched to the Atlas proposal."
+  },
+  {
+   "trabajo": "linkedin-mac",
+   "cuando": "2026-10-22T03:14",
+   "resultado": "fallo",
+   "produjo": 0,
+   "nota": "LinkedIn asked to confirm the session; stopped before liking anything."
+  },
+  {
+   "trabajo": "bandeja",
+   "cuando": "2026-10-22T03:12",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "47 emails read; 2 urgent."
+  },
+  {
+   "trabajo": "bentley",
+   "cuando": "2026-10-22T03:10",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "CS 210 quiz moved; PHIL 120 due date missing."
+  },
+  {
+   "trabajo": "platicas",
+   "cuando": "2026-10-22T03:10",
+   "resultado": "fallo",
+   "produjo": 0,
+   "nota": "The events site changed its layout; found 0 events."
+  },
+  {
+   "trabajo": "canales",
+   "cuando": "2026-10-22T03:09",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "Copied 412 new lines across 4 channels."
+  },
+  {
+   "trabajo": "prep-mac",
+   "cuando": "2026-10-22T03:06",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "Placed 3 prep blocks on the calendar."
+  },
+  {
+   "trabajo": "canales-mac",
+   "cuando": "2026-10-22T03:05",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "WhatsApp, LinkedIn messages and 3 course pages copied."
+  },
+  {
+   "trabajo": "aduana",
+   "cuando": "2026-10-22T03:02",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "Filed 3 new files."
+  },
+  {
+   "trabajo": "canales",
+   "cuando": "2026-10-22T03:01",
+   "resultado": "fallo",
+   "produjo": 0,
+   "nota": "Calendar copy came back empty: the connection expired."
+  },
+  {
+   "trabajo": "tiempo",
+   "cuando": "2026-10-21T03:58",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Mon–Tue: 9 h Northbeam, 6 h classes."
+  },
+  {
+   "trabajo": "cracks",
+   "cuando": "2026-10-21T03:55",
+   "resultado": "ok",
+   "produjo": 5,
+   "nota": "5 new people."
+  },
+  {
+   "trabajo": "linkedin",
+   "cuando": "2026-10-21T03:50",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Draft for Tuesday ready."
+  },
+  {
+   "trabajo": "sincronia",
+   "cuando": "2026-10-21T03:50",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "Replaced 4 stale copies of this week's focus with pointers."
+  },
+  {
+   "trabajo": "coach",
+   "cuando": "2026-10-21T03:48",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "Two meetings."
+  },
+  {
+   "trabajo": "prep",
+   "cuando": "2026-10-21T03:44",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "Prepped 4 meetings; Grace Kim marked must-read."
+  },
+  {
+   "trabajo": "platicas",
+   "cuando": "2026-10-21T03:39",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "2 events found."
+  },
+  {
+   "trabajo": "seguimiento",
+   "cuando": "2026-10-21T03:36",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Omar Haddad follow-up."
+  },
+  {
+   "trabajo": "estudio",
+   "cuando": "2026-10-21T03:33",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "Queue unchanged."
+  },
+  {
+   "trabajo": "esperando",
+   "cuando": "2026-10-21T03:31",
+   "resultado": "ok",
+   "produjo": 5,
+   "nota": "5 open; Sofia's budget added."
+  },
+  {
+   "trabajo": "registro",
+   "cuando": "2026-10-21T03:27",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "Nobody new since yesterday."
+  },
+  {
+   "trabajo": "consejo",
+   "cuando": "2026-10-21T03:22",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "Nothing the council needed to say."
+  },
+  {
+   "trabajo": "linkedin-mac",
+   "cuando": "2026-10-21T03:21",
+   "resultado": "ok",
+   "produjo": 5,
+   "nota": "Liked 4 posts; 1 comment draft."
+  },
+  {
+   "trabajo": "leccion",
+   "cuando": "2026-10-21T03:18",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Shape Up, on fixed time and flexible scope."
+  },
+  {
+   "trabajo": "bandeja",
+   "cuando": "2026-10-21T03:15",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "38 emails read; 1 urgent."
+  },
+  {
+   "trabajo": "bentley",
+   "cuando": "2026-10-21T03:13",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "Course pages unchanged."
+  },
+  {
+   "trabajo": "canales",
+   "cuando": "2026-10-21T03:12",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "Copied 380 new lines."
+  },
+  {
+   "trabajo": "prep-mac",
+   "cuando": "2026-10-21T03:09",
+   "resultado": "ok",
+   "produjo": 2,
+   "nota": "Placed 2 prep blocks."
+  },
+  {
+   "trabajo": "canales-mac",
+   "cuando": "2026-10-21T03:08",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "WhatsApp, LinkedIn and course pages copied."
+  },
+  {
+   "trabajo": "aduana",
+   "cuando": "2026-10-21T03:05",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "No new files."
+  },
+  {
+   "trabajo": "cabina",
+   "cuando": "2026-10-21T03:01",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "Your day: 5 events, 1 urgent email."
+  },
+  {
+   "trabajo": "taller",
+   "cuando": "2026-10-21T03:00",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "All 26 healthy; prep now orders by time."
+  },
+  {
+   "trabajo": "cabina",
+   "cuando": "2026-10-20T03:56",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "Your day: 4 events."
+  },
+  {
+   "trabajo": "taller",
+   "cuando": "2026-10-20T03:55",
+   "resultado": "ok",
+   "produjo": 0,
+   "nota": "All 26 healthy."
+  },
+  {
+   "trabajo": "tiempo",
+   "cuando": "2026-10-20T03:53",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Monday: 5 h Northbeam."
+  },
+  {
+   "trabajo": "cracks",
+   "cuando": "2026-10-20T03:50",
+   "resultado": "ok",
+   "produjo": 5,
+   "nota": "5 new people; one reply from a dental group."
+  },
+  {
+   "trabajo": "linkedin",
+   "cuando": "2026-10-20T03:45",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "Nothing to plan."
+  },
+  {
+   "trabajo": "coach",
+   "cuando": "2026-10-20T03:43",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "One email."
+  },
+  {
+   "trabajo": "prep",
+   "cuando": "2026-10-20T03:39",
+   "resultado": "ok",
+   "produjo": 3,
+   "nota": "Prepped 3 meetings."
+  },
+  {
+   "trabajo": "platicas",
+   "cuando": "2026-10-20T03:34",
+   "resultado": "sin-novedad",
+   "produjo": 0,
+   "nota": "No new events worth your evening."
+  },
+  {
+   "trabajo": "seguimiento",
+   "cuando": "2026-10-20T03:31",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Daniel Okafor follow-up."
+  },
+  {
+   "trabajo": "estudio",
+   "cuando": "2026-10-20T03:28",
+   "resultado": "ok",
+   "produjo": 1,
+   "nota": "Vector spaces note written."
+  },
+  {
+   "trabajo": "esperando",
+   "cuando": "2026-10-20T03:26",
+   "resultado": "ok",
+   "produjo": 4,
+   "nota": "4 open; Grace's one-pager closed."
+  }
+ ]
+}

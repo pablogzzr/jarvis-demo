@@ -1,0 +1,432 @@
+{
+ "ahora": "08:10",
+ "fecha": "Thursday 22 October",
+ "vault": "Second Brain",
+ "sistema_existe": true,
+ "semana": {
+  "titulo": "Week of October 19, 2026",
+  "objetivos": [
+   {
+    "texto": "Northbeam pilot proposal sent to Atlas Freight",
+    "hecho": false
+   },
+   {
+    "texto": "Founders' Table demo night runs Saturday with 25+ people",
+    "hecho": false
+   },
+   {
+    "texto": "Holy hour or mass before Sunday",
+    "hecho": false
+   }
+  ],
+  "dias": [
+   {
+    "etiqueta": "Lun 19",
+    "texto": "Pilot scope v2 written and sent to Marco",
+    "hecho": true,
+    "es_hoy": false
+   },
+   {
+    "etiqueta": "Mar 20",
+    "texto": "Lock the venue and open RSVPs for demo night",
+    "hecho": true,
+    "es_hoy": false
+   },
+   {
+    "etiqueta": "Mié 21",
+    "texto": "Pricing decided with Marco",
+    "hecho": false,
+    "es_hoy": false
+   },
+   {
+    "etiqueta": "Jue 22",
+    "texto": "Send the Northbeam pilot proposal to Dana before the 11:00 call",
+    "hecho": false,
+    "es_hoy": true
+   },
+   {
+    "etiqueta": "Vie 23",
+    "texto": "",
+    "hecho": false,
+    "es_hoy": false
+   },
+   {
+    "etiqueta": "Sáb 24",
+    "texto": "",
+    "hecho": false,
+    "es_hoy": false
+   },
+   {
+    "etiqueta": "Dom 25",
+    "texto": "",
+    "hecho": false,
+    "es_hoy": false
+   }
+  ],
+  "notas": "Pricing slipped from Wednesday to today's lunch. Demo night needs two more demos by Friday.",
+  "vencida": false,
+  "titulo_nueva": "Week of October 19, 2026",
+  "adelantable": false,
+  "titulo_proxima": "Week of October 26, 2026 — draft opens Sunday",
+  "problema": null
+ },
+ "proxima": null,
+ "trimestre": {
+  "etiqueta": "2026-Q4",
+  "nombre": "Build season",
+  "quests": [
+   {
+    "texto": "Northbeam signs its first two paying pilot clients",
+    "hecho": false
+   },
+   {
+    "texto": "Founders' Table runs three demo nights and keeps a 60-person list",
+    "hecho": false
+   },
+   {
+    "texto": "A 3.7 term in CS 210, MKT 310 and PHIL 120 without dropping the gym or daily prayer",
+    "hecho": false
+   }
+  ],
+  "vencido": false,
+  "nombre_nuevo": "Build season",
+  "problema": null
+ },
+ "manana": null,
+ "hoy": "## What's next\n- **All day** — Birthday: **Grace Kim** (mentor). A two-line note about what you shipped since your last call lands better than a like.\n- **All day** — Birthday: **Liam O'Connor** turns 21 — he is in CS 210 with you at 9:30.\n- **Today 9:30** — **CS 210 · Applied AI** with Prof. Priya Nair, room 204 — embeddings lab; bring your two questions on Problem set 4.\n- **Today 11:00** — **Northbeam × Atlas Freight** with Dana Whitfield (COO) and Marco Ruiz — walk her through the 6-week pilot scope; the ask is a yes on the dispatch-inbox triage. 45 min, video. <!-- md-cabina-dia-whitfield-2210 -->\n- **Today 12:15** — Lunch with **Marco Ruiz** — pilot price ($4,800 vs $6,500) and who owns onboarding at Atlas.\n- **Today 14:00** — **MKT 310 · Brand Strategy** with Prof. Daniel Okafor — brand audit draft due tonight at 23:59.\n- **Today 16:00** — **Founders' Table prep** with Sofia Herrera — run of show for Saturday; 31 RSVPs, two demo slots still open.\n- **Today 18:30** — Gym — pull day, then sleep by 23:30 (you averaged 6 h 10 min this week).\n- **Tomorrow 12:00** — **PHIL 120 · Ethics of Happiness** — 600-word reflection on Nozick's experience machine due.\n- **Sat Oct 24 18:00** — **Founders' Table demo night** at Harbor Hall — 25+ people is this week's goal.\n- LinkedIn was not read this morning — its copy is from yesterday 21:40.\n\n## Urgent mail\n- [ ] **Dana Whitfield (Atlas Freight)** — asks for the pilot scope in writing before her 2 pm ops review; reply before the 11:00 call · [Open in Gmail](https://mail.google.com/mail/u/0/#inbox) <!-- md-cabina-mail-whitfield-2210 -->\n- [ ] **Harbor Hall events desk** — needs Saturday's final headcount by 5 pm today or the room drops to 30 seats · [Open in Gmail](https://mail.google.com/mail/u/0/#inbox) <!-- md-cabina-mail-venue-2210 -->\n\n## Tasks for today\n- [ ] Send the Northbeam pilot proposal to Dana after the call <!-- td-8Qk2mVx7Lp3nR4tY -->\n- [ ] Confirm the two open demo slots with Omar Haddad and Ana Torres <!-- td-3Hc9WqZt6Yb1Ns5D -->\n- [ ] Submit the MKT 310 brand audit draft <!-- td-5Rf7JkLm2Pq8Vx4C -->\n\n## Nothing else\n- Faith: morning prayer done at 6:50. Holy hour still open this week — Friday 19:00 at St. Cecilia's is the free slot.\n",
+ "hoy_viejo": false,
+ "hoy_bloques": 8,
+ "hoy_ocupadas": 7,
+ "descartables": {
+  "md-cabina-mail-whitfield-2210": {
+   "trabajo": "cabina",
+   "linea": 50,
+   "crudo": "- [ ] 📬 **Dana Whitfield (Atlas Freight)** — asks for the pilot scope in writing before her 2 pm ops review; reply before the 11:00 call · 22 oct <!-- md-cabina-mail-whitfield-2210 · 2026-10-22 -->"
+  },
+  "md-cabina-mail-venue-2210": {
+   "trabajo": "cabina",
+   "linea": 83,
+   "crudo": "- [ ] 📬 **Harbor Hall events desk** — needs the final headcount for Saturday by 5 pm today or the room drops to 30 seats · 22 oct <!-- md-cabina-mail-venue-2210 · 2026-10-22 -->"
+  },
+  "md-cabina-mail-okafor-2110": {
+   "trabajo": "cabina",
+   "linea": 96,
+   "crudo": "- [ ] 📬 **Prof. Daniel Okafor** — moved MKT 310 office hours to Friday 10:00; your brand audit questions can wait until then · 21 oct <!-- md-cabina-mail-okafor-2110 · 2026-10-21 -->"
+  },
+  "md-cabina-plato-crm-2210": {
+   "trabajo": "cabina",
+   "linea": 127,
+   "crudo": "- [ ] 🍽️ **Hand the demo-night check-in to Liam** — he offered on Tuesday; it frees forty minutes on Saturday · 22 oct <!-- md-cabina-plato-crm-2210 · 2026-10-22 -->"
+  }
+ },
+ "cerradas": [],
+ "plato": null,
+ "plato_viejo": false,
+ "documentos": "## Live documents\n\n### Northbeam\n- **Atlas Freight pilot proposal** — v3, six weeks, dispatch-inbox triage + weekly ops digest · edited yesterday 22:10 · [Open](https://example.com/docs/northbeam-atlas-pilot-v3)\n- **Northbeam pricing sheet** — three tiers; the pilot price is the open question for lunch with Marco · [Open](https://example.com/docs/northbeam-pricing)\n- **Client onboarding checklist** — 14 steps, owner column still empty · [Open](https://example.com/docs/northbeam-onboarding)\n\n### Founders' Table\n- **Demo night run of show** — Saturday 18:00–21:00, 6 demos × 5 min, Q&A after each pair · [Open](https://example.com/docs/ft-run-of-show)\n- **RSVP list** — 31 confirmed, 9 maybe; Sofia owns the door · [Open](https://example.com/docs/ft-rsvps)\n\n### Classes\n- **MKT 310 brand audit draft** — 2,100 words; sections 4 and 5 still bullets · [Open](https://example.com/docs/mkt310-brand-audit)\n- **PHIL 120 reflection** — outline only · [Open](https://example.com/docs/phil120-experience-machine)\n\n### Jarvis\n- **Panel wishlist** — 11 open items, 3 marked for this week · [Open](https://example.com/docs/jarvis-wishlist)",
+ "bloques": [
+  {
+   "linea": 23,
+   "crudo": "- [x] **CS 210** · 50-min block: re-derive cosine similarity by hand, then run the lab notebook <!-- blq-cs210-embeddings-2010-mon-a · 20 oct -->",
+   "estado": "hecho",
+   "texto": "**CS 210** · 50-min block: re-derive cosine similarity by hand, then run the lab notebook",
+   "id": "blq-cs210-embeddings-2010-mon-a",
+   "cuando": "20 oct"
+  },
+  {
+   "linea": 24,
+   "crudo": "- [x] **PHIL 120** · 40-min block: read Nozick, *Anarchy, State, and Utopia* pp. 42–45, and write the three objections <!-- blq-phil120-nozick-2110-wed-a · 21 oct -->",
+   "estado": "hecho",
+   "texto": "**PHIL 120** · 40-min block: read Nozick, *Anarchy, State, and Utopia* pp. 42–45, and write the three objections",
+   "id": "blq-phil120-nozick-2110-wed-a",
+   "cuando": "21 oct"
+  },
+  {
+   "linea": 25,
+   "crudo": "- [ ] **MKT 310** · 60-min block: finish sections 4–5 of the brand audit (positioning map, competitor voice) <!-- blq-mkt310-audit-2210-thu-a · 22 oct -->",
+   "estado": "pendiente",
+   "texto": "**MKT 310** · 60-min block: finish sections 4–5 of the brand audit (positioning map, competitor voice)",
+   "id": "blq-mkt310-audit-2210-thu-a",
+   "cuando": "22 oct"
+  }
+ ],
+ "bentley_decididas": {
+  "cs210-cosine": "x",
+  "cs210-embedding-space": "x",
+  "cs210-temperature": "x",
+  "cs210-self-attention": "-",
+  "phil120-hedonism": "x",
+  "phil120-nozick": "x",
+  "phil120-desire-theory": "-",
+  "phil120-objective-list": "x",
+  "mkt310-positioning-map": "x",
+  "mkt310-brand-voice": "x",
+  "mkt310-aaker-equity": "-"
+ },
+ "entregas": [
+  {
+   "linea": 19,
+   "crudo": "- [ ] **MKT 310** · [Brand audit draft](https://example.com/classes/mkt310/brand-audit) — pick one consumer brand, map its positioning against two rivals; 2,000–2,500 words <!-- ent-mkt310-audit · 2026-10-22T23:59 -->",
+   "estado": "pendiente",
+   "texto": "**MKT 310** · [Brand audit draft](https://example.com/classes/mkt310/brand-audit) — pick one consumer brand, map its positioning against two rivals; 2,000–2,500 words",
+   "id": "ent-mkt310-audit",
+   "cuando": "2026-10-22T23:59"
+  },
+  {
+   "linea": 20,
+   "crudo": "- [ ] **PHIL 120** · [Reflection: the experience machine](https://example.com/classes/phil120/reflection-3) — 600 words: would you plug in, and what does your answer say about hedonism? <!-- ent-phil120-refl3 · 2026-10-23T12:00 -->",
+   "estado": "pendiente",
+   "texto": "**PHIL 120** · [Reflection: the experience machine](https://example.com/classes/phil120/reflection-3) — 600 words: would you plug in, and what does your answer say about hedonism?",
+   "id": "ent-phil120-refl3",
+   "cuando": "2026-10-23T12:00"
+  },
+  {
+   "linea": 21,
+   "crudo": "- [ ] **CS 210** · [Problem set 4: embeddings](https://example.com/classes/cs210/ps4) — five questions on vector spaces and cosine similarity; submit the notebook <!-- ent-cs210-ps4 · 2026-10-26T09:00 -->",
+   "estado": "pendiente",
+   "texto": "**CS 210** · [Problem set 4: embeddings](https://example.com/classes/cs210/ps4) — five questions on vector spaces and cosine similarity; submit the notebook",
+   "id": "ent-cs210-ps4",
+   "cuando": "2026-10-26T09:00"
+  },
+  {
+   "linea": 22,
+   "crudo": "- [ ] **MKT 310** · [Reading quiz: Aaker, ch. 3](https://example.com/classes/mkt310/quiz-3) — 10 questions, open 24 h <!-- ent-mkt310-quiz3 · 2026-10-28T23:59 -->",
+   "estado": "pendiente",
+   "texto": "**MKT 310** · [Reading quiz: Aaker, ch. 3](https://example.com/classes/mkt310/quiz-3) — 10 questions, open 24 h",
+   "id": "ent-mkt310-quiz3",
+   "cuando": "2026-10-28T23:59"
+  },
+  {
+   "linea": 17,
+   "crudo": "- [x] **CS 210** · [Problem set 3: prompting and evaluation](https://example.com/classes/cs210/ps3) — submitted Monday, 92/100 <!-- ent-cs210-ps3 · 2026-10-19T09:00 -->",
+   "estado": "hecho",
+   "texto": "**CS 210** · [Problem set 3: prompting and evaluation](https://example.com/classes/cs210/ps3) — submitted Monday, 92/100",
+   "id": "ent-cs210-ps3",
+   "cuando": "2026-10-19T09:00"
+  },
+  {
+   "linea": 18,
+   "crudo": "- [-] **PHIL 120** · [Optional: film response](https://example.com/classes/phil120/film) — skipped; it does not count toward the grade <!-- ent-phil120-film · 2026-10-20T23:59 -->",
+   "estado": "descartado",
+   "texto": "**PHIL 120** · [Optional: film response](https://example.com/classes/phil120/film) — skipped; it does not count toward the grade",
+   "id": "ent-phil120-film",
+   "cuando": "2026-10-20T23:59"
+  }
+ ],
+ "newsletter": {
+  "minutos": 12,
+  "dias": 0,
+  "letras": 13200,
+  "url": "",
+  "episodio": {
+   "titulo": "Morning brief — Thursday, Oct 22",
+   "cuando": "2026-10-22 05:40",
+   "minutos": 9
+  }
+ },
+ "avisos": [],
+ "hoy_generado": "today 3:12",
+ "p1": {
+  "tareas": [
+   {
+    "id": "8Qk2mVx7Lp3nR4tY",
+    "texto": "Send the Northbeam pilot proposal to Dana Whitfield",
+    "cerrada": false
+   },
+   {
+    "id": "5Rf7JkLm2Pq8Vx4C",
+    "texto": "Submit the MKT 310 brand audit draft by 23:59",
+    "cerrada": false
+   },
+   {
+    "id": "3Hc9WqZt6Yb1Ns5D",
+    "texto": "Fill the two open demo slots for Saturday",
+    "cerrada": false
+   }
+  ],
+  "copia": "2026-10-22 07:58"
+ },
+ "mananas": [
+  {
+   "fecha": "2026-09-23",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-24",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-25",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-26",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-27",
+   "estado": "descanso"
+  },
+  {
+   "fecha": "2026-09-28",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-29",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-09-30",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-10-01",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-02",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-03",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-04",
+   "estado": "descanso"
+  },
+  {
+   "fecha": "2026-10-05",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-06",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-10-07",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-08",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-09",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-10",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-10-11",
+   "estado": "descanso"
+  },
+  {
+   "fecha": "2026-10-12",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-13",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-14",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-15",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-16",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-17",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-10-18",
+   "estado": "descanso"
+  },
+  {
+   "fecha": "2026-10-19",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-20",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-21",
+   "estado": "completa"
+  },
+  {
+   "fecha": "2026-10-22",
+   "estado": "pendiente"
+  }
+ ],
+ "quien": [
+  {
+   "archivo": "pablo",
+   "id": "qp-7f3a91c2d4e8b6a0",
+   "linea": 14,
+   "crudo": "- [ ] 2026-10-21 16:00 · \"Northbeam pricing sync\" · Speakers A-C · 3 voices, 34 min · says: A I think the pilot has to be cheap enough that Dana can sign it without her CFO | B Six weeks is too short to show the digest working | C Let me send the onboarding checklist tonight <!-- qp-7f3a91c2d4e8b6a0 · 2026-10-21 -->",
+   "texto": "2026-10-21 16:00 · \"Northbeam pricing sync\" · Speakers A-C · 3 voices, 34 min · says: A I think the pilot has to be cheap enough that Dana can sign it without her CFO | B Six weeks is too short to show the digest working | C Let me send the onboarding checklist tonight",
+   "cuando": "2026-10-21 16:00",
+   "junta": "Northbeam pricing sync",
+   "etiqueta": "A-C",
+   "cita": "",
+   "probables": [],
+   "es_pablo": true,
+   "muestras": {
+    "A": {
+     "turnos": 41,
+     "parte": 46,
+     "lineas": [
+      "I think the pilot has to be cheap enough that Dana can sign it without her CFO.",
+      "My view is we sell the inbox triage first and the digest as the reason to renew.",
+      "I'll send her the scope tomorrow after the call, not before."
+     ]
+    },
+    "B": {
+     "turnos": 29,
+     "parte": 38,
+     "lineas": [
+      "Six weeks is too short to show the digest working.",
+      "If we price it at forty-eight hundred we are telling them it is a toy.",
+      "I can own onboarding if you take the weekly review."
+     ]
+    },
+    "C": {
+     "turnos": 9,
+     "parte": 16,
+     "lineas": [
+      "Let me send the onboarding checklist tonight.",
+      "Atlas already uses shared inboxes, so access is a one-day job."
+     ]
+    }
+   }
+  },
+  {
+   "archivo": "quien",
+   "id": "qq-2b6e04f9a1c7d3e5",
+   "linea": 8,
+   "crudo": "- [ ] 2026-10-21 18:30 · \"Founders' Table volunteer huddle\" · Speaker B · \"I can get the venue keys by five and handle the door\" · likely: Sofia Herrera | Liam O'Connor <!-- qq-2b6e04f9a1c7d3e5 · 2026-10-21 -->",
+   "texto": "2026-10-21 18:30 · \"Founders' Table volunteer huddle\" · Speaker B · \"I can get the venue keys by five and handle the door\" · likely: Sofia Herrera | Liam O'Connor",
+   "cuando": "2026-10-21 18:30",
+   "junta": "Founders' Table volunteer huddle",
+   "etiqueta": "B",
+   "cita": "I can get the venue keys by five and handle the door",
+   "probables": [
+    "Sofia Herrera",
+    "Liam O'Connor"
+   ],
+   "es_pablo": false,
+   "muestras": {}
+  }
+ ],
+ "foco_docx": "",
+ "fallos_semana": 0
+}

@@ -1,0 +1,405 @@
+{
+ "est-memory-layer-track": {
+  "nombre": "The memory-layer track",
+  "ruta": "3 Resources/Study/memory-layer-track_study.md",
+  "texto": "# The memory-layer track\n\n## Think about this first\n\nWhich part of Jarvis forgets the most today? That's probably your first stop.\n\n## The 80/20\n\nThree stops, in order, each changing one thing in Jarvis:\n\n1. **What memory is**: context, retrieval, files. *Change:* name which one each job relies on.\n2. **Index vs. search**: when a map beats a search engine. *Change:* measure the hit rate.\n3. **Forgetting on purpose**: supersede, decay, expire. *Change:* date every fact that can go stale.\n\nOne stop a week. Don't start the next until you've changed something from the last.\n\n## The words\n\n- **Memory layer** — everything an agent can read that isn't in the model's weights\n\n## Lo que pensó Pablo\n\n**Before reading · 2026-10-08 21:14**\nI think the problem is retrieval. Jarvis has the notes, it just doesn't find them.\n\n**In my words · 2026-10-08 21:40**\nWrong guess. The problem isn't finding notes, it's trusting old ones. Retrieval is stop two; stop three is the one that bites me now. I'll keep the order anyway because I can't judge forgetting without knowing what each job reads. One stop per week, change one thing each time, then move.\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fmemory-layer-track_study",
+  "terminos": [
+   {
+    "p": "Memory layer",
+    "r": "everything an agent can read that isn't in the model's weights"
+   }
+  ],
+  "fila": {
+   "icono": "🗺️",
+   "titulo": "The memory-layer track: what you're building and in which order",
+   "por_que": "The map for the three-step track; read it once, then go stop by stop",
+   "tiempo": "~10 min",
+   "suyo_envio": false,
+   "nota": "memory-layer-track_study",
+   "id": "est-memory-layer-track",
+   "linea": 11,
+   "crudo": "- [x] 🗺️ **The memory-layer track: what you're building and in which order** — The map for the three-step track; read it once, then go stop by stop · ~10 min · [[memory-layer-track_study]] <!-- est-memory-layer-track · 8 oct · in -->",
+   "estado": "hecho",
+   "cuadrante": "in",
+   "suyo": false,
+   "fecha": "8 oct",
+   "correlo": "Deep study session (~1.5 h): The memory-layer track: what you're building and in which order.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the order of the track and what each stop changes in Jarvis. Use the track's own notes. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-spaced-repetition": {
+  "nombre": "Why spaced repetition works",
+  "ruta": "3 Resources/Study/spaced-repetition-fsrs_study.md",
+  "texto": "# Why spaced repetition works\n\n## Think about this first\n\nWhy would forgetting a card a little be *good* for remembering it?\n\n## The 80/20\n\nMemory decays along a curve; reviewing just before you'd forget resets it higher and flatter. **FSRS** models each card with two numbers: **stability** (how many days until recall drops to 90%) and **difficulty** (how hard it is to raise stability). The four buttons tell it how the review went; it schedules the next one at the point you're about to forget.\n\n## The four buttons\n\n- **Again**: you forgot; stability drops, the card comes back soon.\n- **Hard**: you got it with effort; small stability gain.\n- **Good**: normal recall; the standard gain.\n- **Easy**: instant; big gain, longer interval.\n\n## Where it breaks\n\nRating \"Good\" when you guessed inflates stability and the card comes back too late. Honest grading is the whole system.\n\n## The words\n\n- **Stability** — days until the chance of recalling a card falls to 90%\n- **Difficulty** — how resistant a card is to gaining stability\n- **Desirable difficulty** — effort during recall that strengthens the memory\n\n## Lo que pensó Pablo\n\n**In my words · 2026-10-11 07:55**\nEach card has a clock (stability) and a weight (difficulty). Reviewing right before I'd forget winds the clock further. Again isn't failing, it's correcting the clock. The trap is lying to myself on Good. If I'm not sure, Hard.\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fspaced-repetition-fsrs_study",
+  "terminos": [
+   {
+    "p": "Stability",
+    "r": "days until the chance of recalling a card falls to 90%"
+   },
+   {
+    "p": "Difficulty",
+    "r": "how resistant a card is to gaining stability"
+   },
+   {
+    "p": "Desirable difficulty",
+    "r": "effort during recall that strengthens the memory"
+   }
+  ],
+  "fila": {
+   "icono": "🃏",
+   "titulo": "Why spaced repetition works: the forgetting curve and FSRS",
+   "por_que": "Your flashcards switched to FSRS last week; know what the four buttons actually do",
+   "tiempo": "~20 min",
+   "suyo_envio": false,
+   "nota": "spaced-repetition-fsrs_study",
+   "id": "est-spaced-repetition",
+   "linea": 14,
+   "crudo": "- [x] 🃏 **Why spaced repetition works: the forgetting curve and FSRS** — Your flashcards switched to FSRS last week; know what the four buttons actually do · ~20 min · [[spaced-repetition-fsrs_study]] <!-- est-spaced-repetition · 10 oct · in -->",
+   "estado": "hecho",
+   "cuadrante": "in",
+   "suyo": false,
+   "fecha": "10 oct",
+   "correlo": "Deep study session (~1.5 h): Why spaced repetition works: the forgetting curve and FSRS.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: stability vs. difficulty and why 'Again' is not a failure. Use Piotr Wozniak's writing on the two-component model and the FSRS wiki. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-goal-constraints": {
+  "nombre": "The Goal: finding the constraint",
+  "ruta": "3 Resources/Study/the-goal-finding-the-constraint_study.md",
+  "texto": "# The Goal: finding the constraint\n\n## Think about this first\n\nAtlas Freight's three coordinators each spend 11 hours a week re-keying confirmations. If Northbeam made them twice as fast, would Atlas move more loads? What would have to be true?\n\n## The 80/20\n\nA system's output is set by its **one** slowest step, the constraint. Improving any other step produces inventory or idle time, never more output. Alex Rogo's plant in *The Goal* looks efficient everywhere and still ships late, because every machine is busy making parts the bottleneck can't absorb.\n\n## How it works\n\n1. **Identify** the constraint: the step with work piling up in front of it.\n2. **Exploit** it: never let it sit idle (Herbie walks at the front of the scout line).\n3. **Subordinate** everything else to its pace.\n4. **Elevate** it: add capacity only after steps 1–3.\n5. **Repeat**: the constraint moves; go find it again.\n\n## Where it breaks\n\nIf the constraint is demand (not enough loads to book), faster dispatch changes nothing. Ask Dana where the work queues up before you price the hours saved.\n\n## For Friday\n\nFrame the pilot as step 2, *exploit*: the coordinators' time is the constraint, and the agent takes the re-keying off it so they spend it on the carriers.\n\n## The words\n\n- **Constraint** — the one step that limits the whole system's output\n- **Throughput** — the rate at which the system makes money through sales, not through production\n- **Subordinate** — set every non-constraint step to the constraint's pace\n- **Local optimum** — a step that looks efficient alone but adds nothing to the system\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fthe-goal-finding-the-constraint_study",
+  "terminos": [
+   {
+    "p": "Constraint",
+    "r": "the one step that limits the whole system's output"
+   },
+   {
+    "p": "Throughput",
+    "r": "the rate at which the system makes money through sales, not through production"
+   },
+   {
+    "p": "Subordinate",
+    "r": "set every non-constraint step to the constraint's pace"
+   },
+   {
+    "p": "Local optimum",
+    "r": "a step that looks efficient alone but adds nothing to the system"
+   }
+  ],
+  "fila": {
+   "icono": "📘",
+   "titulo": "The Goal, chapters 1–12: finding the constraint",
+   "por_que": "Before Friday's Atlas proposal: their dispatch backlog is a bottleneck story, and Goldratt is the cleanest way to say it",
+   "tiempo": "~35 min",
+   "suyo_envio": true,
+   "nota": "the-goal-finding-the-constraint_study",
+   "id": "est-goal-constraints",
+   "linea": 17,
+   "crudo": "- [ ] 📘 **The Goal, chapters 1–12: finding the constraint** — Before Friday's Atlas proposal: their dispatch backlog is a bottleneck story, and Goldratt is the cleanest way to say it · you sent it · ~35 min · [[the-goal-finding-the-constraint_study]] <!-- est-goal-constraints · 14 oct · IU -->",
+   "estado": "pendiente",
+   "cuadrante": "iu",
+   "suyo": true,
+   "fecha": "14 oct",
+   "correlo": "Deep study session (~1.5 h): The Goal, chapters 1–12: finding the constraint.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the five focusing steps and why local efficiency hides the constraint. Use Goldratt's The Goal and the 'Theory of Constraints' chapter of Beyond the Goal. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-jobs-to-be-done": {
+  "nombre": "Jobs to be done for an AI ops service",
+  "ruta": "3 Resources/Study/jobs-to-be-done-small-firms_study.md",
+  "texto": "# Jobs to be done for an AI ops service\n\n## Think about this first\n\nWhen a 20-person firm says yes to Northbeam, what are they firing? Write the answer before you read.\n\n## The 80/20\n\nCustomers don't buy products; they **hire** them to make progress in a specific situation. The milkshake was hired for a boring commute, and its competitor was a banana, not another milkshake. For a small firm, an AI ops service is rarely hired for \"AI.\" It is hired to stop the owner from being the bottleneck on every exception.\n\n## How it works\n\n- **Functional job**: get confirmations into the system without re-keying.\n- **Emotional job**: stop worrying that a rate error will cost a customer.\n- **Social job**: look like a modern operation to larger shippers.\n- **The firing moment**: the day the owner works the Saturday the coordinators were supposed to cover.\n\n## Where it breaks\n\nJobs interviews describe the past. They tell you why someone switched, not whether a new category will be trusted. Pair them with a pilot.\n\n## For MKT 310\n\nCase discussion Tuesday: bring one \"firing moment\" from Atlas Freight as your example.\n\n## The words\n\n- **Job to be done** — the progress a customer is trying to make in a given situation\n- **Firing moment** — the event that makes a customer drop their current solution\n- **Struggling moment** — the recurring friction that precedes switching\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fjobs-to-be-done-small-firms_study",
+  "terminos": [
+   {
+    "p": "Job to be done",
+    "r": "the progress a customer is trying to make in a given situation"
+   },
+   {
+    "p": "Firing moment",
+    "r": "the event that makes a customer drop their current solution"
+   },
+   {
+    "p": "Struggling moment",
+    "r": "the recurring friction that precedes switching"
+   }
+  ],
+  "fila": {
+   "icono": "🧩",
+   "titulo": "Jobs to be done: what a small firm actually hires an AI ops service for",
+   "por_que": "MKT 310 case next week, and it is the question Northbeam's landing page still can't answer in one line",
+   "tiempo": "~25 min",
+   "suyo_envio": false,
+   "nota": "jobs-to-be-done-small-firms_study",
+   "id": "est-jobs-to-be-done",
+   "linea": 20,
+   "crudo": "- [ ] 🧩 **Jobs to be done: what a small firm actually hires an AI ops service for** — MKT 310 case next week, and it is the question Northbeam's landing page still can't answer in one line · ~25 min · [[jobs-to-be-done-small-firms_study]] <!-- est-jobs-to-be-done · 16 oct · iu -->",
+   "estado": "pendiente",
+   "cuadrante": "iu",
+   "suyo": false,
+   "fecha": "16 oct",
+   "correlo": "Deep study session (~1.5 h): Jobs to be done: what a small firm actually hires an AI ops service for.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the difference between the functional, emotional and social job, and the 'firing' moment. Use Christensen's 'Know Your Customers' Jobs to Be Done' (HBR, 2016) and Bob Moesta's milkshake interview. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-ml1-what-memory-is": {
+  "nombre": "What an agent's memory is",
+  "ruta": "3 Resources/Study/agent-memory-three-kinds_study.md",
+  "texto": "# What an agent's memory is\n\n## Think about this first\n\nJarvis knows your week's objectives every morning. Where does that knowledge live: in the model, in a search, or in a file? Guess before reading.\n\n## The 80/20\n\nAn agent has three kinds of memory, and good design uses each for what it does best:\n\n| Kind | Where it lives | Good for | Cost |\n|---|---|---|---|\n| Context | the prompt itself | what matters right now | tokens on every call |\n| Retrieval | a search over many notes | facts you can't predict you'll need | can find the wrong note |\n| Files | text the agent reads on purpose | rules and state that must be exact | someone has to keep them current |\n\nThe weights of the model are not memory you control. Anything that has to be true tomorrow goes in a file.\n\n## Where it breaks\n\nFiles go stale silently. A note from August that still says \"focus: classes\" is worse than no note, because the agent trusts it.\n\n## The words\n\n- **Context window** — everything the model sees in one call\n- **Retrieval** — finding relevant text at question time and adding it to the context\n- **Working memory** — the facts an agent rewrites as it goes (a scratchpad)\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fagent-memory-three-kinds_study",
+  "terminos": [
+   {
+    "p": "Context window",
+    "r": "everything the model sees in one call"
+   },
+   {
+    "p": "Retrieval",
+    "r": "finding relevant text at question time and adding it to the context"
+   },
+   {
+    "p": "Working memory",
+    "r": "the facts an agent rewrites as it goes (a scratchpad)"
+   }
+  ],
+  "fila": {
+   "icono": "🧠",
+   "titulo": "What an AI agent's memory actually is: context, retrieval and files",
+   "por_que": "First stop of the memory-layer track. Jarvis already uses all three; this names which one each job leans on",
+   "tiempo": "~25 min",
+   "suyo_envio": false,
+   "nota": "agent-memory-three-kinds_study",
+   "id": "est-ml1-what-memory-is",
+   "linea": 23,
+   "crudo": "- [ ] 🧠 **What an AI agent's memory actually is: context, retrieval and files** — First stop of the memory-layer track. Jarvis already uses all three; this names which one each job leans on · ~25 min · [[agent-memory-three-kinds_study]] <!-- est-ml1-what-memory-is · 12 oct · in -->",
+   "estado": "pendiente",
+   "cuadrante": "in",
+   "suyo": false,
+   "fecha": "12 oct",
+   "correlo": "Deep study session (~1.5 h): What an AI agent's memory actually is: context, retrieval and files.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: when to put something in the context window, when to retrieve it, and when to write it to a file the agent reads. Use Anthropic's 'Building effective agents' post and Lilian Weng's 'LLM Powered Autonomous Agents'. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-ml2-index-vs-search": {
+  "nombre": "An index vs. search",
+  "ruta": "3 Resources/Study/index-vs-search_study.md",
+  "texto": "# An index vs. search\n\n## Think about this first\n\nYou have ~600 notes. If you asked for \"what Dana cares about,\" would you rather have a search engine or a one-page map someone keeps current? Why?\n\n## The 80/20\n\nAt small scale, a hand-kept **index** (headings, a map, a people list) beats semantic search on precision: it was written by someone who knew what mattered. Search wins on recall once the collection outgrows anyone's memory. Most personal systems are in the first regime and use tools built for the second.\n\n## How to know which you need\n\nMeasure. Write 30 questions with known answers, run both, count how often the right note is in the top 3. Under ~70% hit rate, the problem is the notes, not the retriever.\n\n## Where it breaks\n\nAn index is only as good as its last update. If nobody regenerates it, search is the safer default.\n\n## For CS 210\n\nThis is the evaluation section Prof. Nair asked for: a 30-question test set and a top-3 hit rate.\n\n## The words\n\n- **Precision** — of what came back, how much was right\n- **Recall** — of what was right, how much came back\n- **Hit rate at k** — share of questions where the right answer is in the top k results\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Findex-vs-search_study",
+  "terminos": [
+   {
+    "p": "Precision",
+    "r": "of what came back, how much was right"
+   },
+   {
+    "p": "Recall",
+    "r": "of what was right, how much came back"
+   },
+   {
+    "p": "Hit rate at k",
+    "r": "share of questions where the right answer is in the top k results"
+   }
+  ],
+  "fila": {
+   "icono": "🔎",
+   "titulo": "An index vs. search: why a map of your notes beats semantic search at small scale",
+   "por_que": "Your CS 210 project assumes search; Prof. Nair asked how you know it retrieves the right note",
+   "tiempo": "~20 min",
+   "suyo_envio": false,
+   "nota": "index-vs-search_study",
+   "id": "est-ml2-index-vs-search",
+   "linea": 26,
+   "crudo": "- [ ] 🔎 **An index vs. search: why a map of your notes beats semantic search at small scale** — Your CS 210 project assumes search; Prof. Nair asked how you know it retrieves the right note · ~20 min · [[index-vs-search_study]] <!-- est-ml2-index-vs-search · 15 oct · IN -->",
+   "estado": "pendiente",
+   "cuadrante": "in",
+   "suyo": true,
+   "fecha": "15 oct",
+   "correlo": "Deep study session (~1.5 h): An index vs. search: why a map of your notes beats semantic search at small scale.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: precision vs. recall at 500 notes vs. 500,000, and how to measure a hit rate. Use the BM25 vs. dense retrieval comparisons in the BEIR benchmark paper. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-karpathy-intro-llms": {
+  "nombre": "Karpathy: Intro to Large Language Models",
+  "ruta": "3 Resources/Study/karpathy-intro-to-llms_study.md",
+  "texto": "# Karpathy: Intro to Large Language Models\n\n## Think about this first\n\nWhat is the difference between the model that finished pretraining and the assistant you talk to? Write two sentences.\n\n## The 80/20\n\nAn LLM is two files: the parameters and the code that runs them. **Pretraining** compresses a large slice of the internet into those parameters: expensive, done rarely, and the result is a document completer. **Fine-tuning** on curated conversations turns it into an assistant: cheap, done often. Karpathy's frame for where this goes: the LLM as the kernel of a new operating system, with tools, files and other models as its peripherals.\n\n## Timestamps worth rewatching\n\n- 0:00–12:00 — the two files and next-word prediction as compression\n- 20:00–28:00 — pretraining vs. fine-tuning vs. RLHF\n- 42:00–51:00 — the LLM OS diagram\n- 51:00–end — jailbreaks and prompt injection\n\n## Where it breaks\n\n\"Compression of the internet\" is an analogy. It explains hallucination well; it explains reasoning poorly.\n\n## For the midterm\n\nExpect a question on why fine-tuning changes format more than knowledge.\n\n[Watch the talk](https://www.youtube.com/watch?v=zjkBMFhNj_g)\n\n## The words\n\n- **Pretraining** — training on massive raw text to predict the next token\n- **Fine-tuning** — further training on a small curated set to shape behaviour\n- **RLHF** — reinforcement learning from human feedback; tunes outputs toward preferred answers\n- **Prompt injection** — instructions hidden in content that hijack the model's task\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fkarpathy-intro-to-llms_study",
+  "terminos": [
+   {
+    "p": "Pretraining",
+    "r": "training on massive raw text to predict the next token"
+   },
+   {
+    "p": "Fine-tuning",
+    "r": "further training on a small curated set to shape behaviour"
+   },
+   {
+    "p": "RLHF",
+    "r": "reinforcement learning from human feedback; tunes outputs toward preferred answers"
+   },
+   {
+    "p": "Prompt injection",
+    "r": "instructions hidden in content that hijack the model's task"
+   }
+  ],
+  "fila": {
+   "icono": "🎥",
+   "titulo": "Karpathy's 'Intro to Large Language Models' (the 1-hour talk)",
+   "por_que": "CS 210 midterm covers pretraining vs. fine-tuning; this talk is the clearest hour on it",
+   "tiempo": "~60 min",
+   "suyo_envio": true,
+   "nota": "karpathy-intro-to-llms_study",
+   "id": "est-karpathy-intro-llms",
+   "linea": 29,
+   "crudo": "- [ ] 🎥 **Karpathy's 'Intro to Large Language Models' (the 1-hour talk)** — CS 210 midterm covers pretraining vs. fine-tuning; this talk is the clearest hour on it · you sent it · ~60 min · [[karpathy-intro-to-llms_study]] <!-- est-karpathy-intro-llms · 9 oct · nu -->",
+   "estado": "pendiente",
+   "cuadrante": "nu",
+   "suyo": false,
+   "fecha": "9 oct",
+   "correlo": "Deep study session (~1.5 h): Karpathy's 'Intro to Large Language Models' (the 1-hour talk).\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the 'LLM as an operating system' frame and the jailbreak/prompt-injection section. Use Andrej Karpathy's 'Intro to Large Language Models' talk on YouTube and his 'State of GPT' talk. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-aristotle-eudaimonia": {
+  "nombre": "Aristotle's eudaimonia",
+  "ruta": "3 Resources/Study/aristotle-eudaimonia_study.md",
+  "texto": "# Aristotle's eudaimonia\n\n## Think about this first\n\nIs happiness something you feel or something you do? Pick one and defend it in three lines.\n\n## The 80/20\n\nFor Aristotle, **eudaimonia** (flourishing) is the highest good because it is the only thing chosen for its own sake. The **function argument**: a thing is good when it performs its function well; a knife's function is to cut. The human function is activity of the soul in accordance with reason, so the good life is *doing* that well, with virtue, over a complete life. One swallow does not make a spring.\n\n## How the argument runs\n\n1. Every action aims at some good; there is a highest good.\n2. That good is eudaimonia, but people disagree about what it is.\n3. To find it, find the human function.\n4. The human function is rational activity.\n5. So eudaimonia is rational activity done excellently, across a whole life.\n\n## Where it breaks\n\nStep 3 assumes humans have a single function. Critics ask why the distinctive trait (reason) must be the *good* one.\n\n## For Monday's response\n\nProf. Mendel's prompt: \"Can a person be happy and not know it?\" Aristotle says yes, and the function argument is why.\n\n## The words\n\n- **Eudaimonia** — flourishing; living and doing well over a whole life\n- **Ergon** — the characteristic function of a thing\n- **Arete** — excellence or virtue; performing a function well\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Faristotle-eudaimonia_study",
+  "terminos": [
+   {
+    "p": "Eudaimonia",
+    "r": "flourishing; living and doing well over a whole life"
+   },
+   {
+    "p": "Ergon",
+    "r": "the characteristic function of a thing"
+   },
+   {
+    "p": "Arete",
+    "r": "excellence or virtue; performing a function well"
+   }
+  ],
+  "fila": {
+   "icono": "📜",
+   "titulo": "Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I)",
+   "por_que": "PHIL 120 reading response due Monday; Prof. Mendel wants the function argument in your own words",
+   "tiempo": "~20 min",
+   "suyo_envio": false,
+   "nota": "aristotle-eudaimonia_study",
+   "id": "est-aristotle-eudaimonia",
+   "linea": 32,
+   "crudo": "- [ ] 📜 **Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I)** — PHIL 120 reading response due Monday; Prof. Mendel wants the function argument in your own words · ~20 min · [[aristotle-eudaimonia_study]] <!-- est-aristotle-eudaimonia · 18 oct · nu -->",
+   "estado": "pendiente",
+   "cuadrante": "nu",
+   "suyo": false,
+   "fecha": "18 oct",
+   "correlo": "Deep study session (~1.5 h): Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I).\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the function (ergon) argument and why happiness is an activity, not a feeling. Use Nicomachean Ethics Book I (Ross translation), chapters 7–10. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-pricing-pilots": {
+  "nombre": "Pricing a paid pilot",
+  "ruta": "3 Resources/Study/pricing-paid-pilots_study.md",
+  "texto": "# Pricing a paid pilot\n\n## Think about this first\n\nWhat should a first paid pilot prove: that the client will pay, or that the system works? Your answer changes the price.\n\n## The 80/20\n\nA pilot's price is a filter more than revenue. Too cheap and the client doesn't staff it; too expensive and it never starts. For a first client, a **fixed fee tied to one measured outcome**, with the conversion terms written in advance, usually beats success fees (hard to measure, slow to pay) and retainers (too much commitment before trust).\n\n## The three models\n\n| Model | Works when | Risk |\n|---|---|---|\n| Fixed fee | scope is clear, 4–8 weeks | you absorb overruns |\n| Success fee | outcome is measurable and fast | disputes over the baseline |\n| Retainer | trust already exists | client feels locked in |\n\n## A rule of thumb\n\nPrice the pilot at 10–20% of the first-year value you'll show. For Atlas: ~33 coordinator hours a week is roughly one headcount; a pilot well under a month of that salary is an easy yes for a COO.\n\n## Where it breaks\n\nIf the client can't name the baseline, you can't prove the outcome. Get the current hours in writing before you start.\n\n## The words\n\n- **Baseline** — the measured state before the pilot, agreed in writing\n- **Conversion clause** — the pre-agreed terms for turning the pilot into a contract\n- **Value-based fee** — a price set by the client's outcome, not your hours\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fpricing-paid-pilots_study",
+  "terminos": [
+   {
+    "p": "Baseline",
+    "r": "the measured state before the pilot, agreed in writing"
+   },
+   {
+    "p": "Conversion clause",
+    "r": "the pre-agreed terms for turning the pilot into a contract"
+   },
+   {
+    "p": "Value-based fee",
+    "r": "a price set by the client's outcome, not your hours"
+   }
+  ],
+  "fila": {
+   "icono": "💵",
+   "titulo": "How to price a paid pilot: fixed fee, success fee or retainer",
+   "por_que": "Marco wants a number for Atlas by Thursday night; you have three models and no criterion",
+   "tiempo": "~25 min",
+   "suyo_envio": false,
+   "nota": "pricing-paid-pilots_study",
+   "id": "est-pricing-pilots",
+   "linea": 35,
+   "crudo": "- [ ] 💵 **How to price a paid pilot: fixed fee, success fee or retainer** — Marco wants a number for Atlas by Thursday night; you have three models and no criterion · ~25 min · [[pricing-paid-pilots_study]] <!-- est-pricing-pilots · 19 oct · in -->",
+   "estado": "pendiente",
+   "cuadrante": "in",
+   "suyo": false,
+   "fecha": "19 oct",
+   "correlo": "Deep study session (~1.5 h): How to price a paid pilot: fixed fee, success fee or retainer.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: value-based pricing for a first client and how to make the pilot convert to a contract. Use Patrick Campbell's pricing interviews and the 'Value-based pricing' chapter of Alan Weiss's Value-Based Fees. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-ml3-forgetting": {
+  "nombre": "Forgetting on purpose",
+  "ruta": "3 Resources/Study/forgetting-on-purpose_study.md",
+  "texto": "# Forgetting on purpose\n\n## Think about this first\n\nWhat should Jarvis do with a note that was true in August and is wrong now: delete it, edit it, or keep it and mark it?\n\n## The 80/20\n\nA memory layer that never forgets ends up trusting old facts. Good systems **replace without erasing**: the new fact goes in, the old one stays with a date and a pointer to what replaced it. Recency then breaks ties. The Generative Agents paper scores memories on recency, importance and relevance; anything that scores low on all three stops being retrieved without being deleted.\n\n## Three moves\n\n1. **Supersede**: mark the old fact \"replaced on <date> by …\"\n2. **Decay**: lower the weight of what hasn't been read or confirmed in N weeks.\n3. **Expire**: some notes (a week's focus) carry an end date from birth.\n\n## Where it breaks\n\nDecay by age punishes durable facts (a person's birthday). Decay needs a type: state decays, identity doesn't.\n\n## The words\n\n- **Supersede** — replace a fact while keeping the old one, dated\n- **Recency weighting** — preferring newer memories when relevance ties\n- **Expiry** — a date after which a note stops being trusted\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fforgetting-on-purpose_study",
+  "terminos": [
+   {
+    "p": "Supersede",
+    "r": "replace a fact while keeping the old one, dated"
+   },
+   {
+    "p": "Recency weighting",
+    "r": "preferring newer memories when relevance ties"
+   },
+   {
+    "p": "Expiry",
+    "r": "a date after which a note stops being trusted"
+   }
+  ],
+  "fila": {
+   "icono": "🧹",
+   "titulo": "Forgetting on purpose: pruning, decay and stale facts in a memory layer",
+   "por_que": "Third stop of the memory-layer track; Jarvis has notes from August that still read as current",
+   "tiempo": "~20 min",
+   "suyo_envio": false,
+   "nota": "forgetting-on-purpose_study",
+   "id": "est-ml3-forgetting",
+   "linea": 38,
+   "crudo": "- [ ] 🧹 **Forgetting on purpose: pruning, decay and stale facts in a memory layer** — Third stop of the memory-layer track; Jarvis has notes from August that still read as current · ~20 min · [[forgetting-on-purpose_study]] <!-- est-ml3-forgetting · 20 oct · nn -->",
+   "estado": "pendiente",
+   "cuadrante": "nn",
+   "suyo": false,
+   "fecha": "20 oct",
+   "correlo": "Deep study session (~1.5 h): Forgetting on purpose: pruning, decay and stale facts in a memory layer.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: how to mark a fact as replaced without deleting it, and when a note should expire. Use the 'memory stream' and reflection design in the Generative Agents paper (Park et al., 2023). Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ },
+ "est-vector-db-explainer": {
+  "nombre": "Vector databases explained",
+  "ruta": "3 Resources/Study/vector-databases-explained_study.md",
+  "texto": "# Vector databases explained\n\n## Think about this first\n\nDoes a 600-note brain need a database built for millions of vectors?\n\n## The 80/20\n\nA vector database stores embeddings and finds the nearest ones fast, using approximate indexes (HNSW, IVF). It matters at millions of items. Below ~100,000, a flat search in memory is exact and fast enough.\n\n## Why it was marked not useful\n\nThe webinar was a product pitch; the one useful idea fits in the paragraph above.\n\n## The words\n\n- **Embedding** — a list of numbers that places text in a space where similar meanings sit close\n- **Approximate nearest neighbour** — trading a little accuracy for a lot of speed in similarity search\n\n## Lo que pensó Pablo\n",
+  "cortada": false,
+  "obsidian": "obsidian://open?vault=Second%20Brain&file=3%20Resources%2FStudy%2Fvector-databases-explained_study",
+  "terminos": [
+   {
+    "p": "Embedding",
+    "r": "a list of numbers that places text in a space where similar meanings sit close"
+   },
+   {
+    "p": "Approximate nearest neighbour",
+    "r": "trading a little accuracy for a lot of speed in similarity search"
+   }
+  ],
+  "fila": {
+   "icono": "📦",
+   "titulo": "Vector databases explained (a 40-minute vendor webinar)",
+   "por_que": "Came from a newsletter; possibly useful for the CS 210 project",
+   "tiempo": "~40 min",
+   "suyo_envio": false,
+   "nota": "vector-databases-explained_study",
+   "id": "est-vector-db-explainer",
+   "linea": 41,
+   "crudo": "- [-] 📦 **Vector databases explained (a 40-minute vendor webinar)** — Came from a newsletter; possibly useful for the CS 210 project · ~40 min · [[vector-databases-explained_study]] <!-- est-vector-db-explainer · 11 oct · nn -->",
+   "estado": "descartado",
+   "cuadrante": "nn",
+   "suyo": false,
+   "fecha": "11 oct",
+   "correlo": "Deep study session (~1.5 h): Vector databases explained (a 40-minute vendor webinar).\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: indexes and approximate nearest neighbours. Use the webinar. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+  }
+ }
+}

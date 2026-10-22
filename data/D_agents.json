@@ -1,0 +1,1658 @@
+{
+ "agentes": {
+  "orquestadores": [
+   {
+    "clave": "personas",
+    "nombre": "People",
+    "lider": "lider-personas",
+    "meta": "Nobody who matters goes cold: every meeting arrives prepared, every promise gets its follow-up, and your network grows with intent.",
+    "miembros": [
+     "prep",
+     "prep-mac",
+     "platicas",
+     "seguimiento",
+     "linkedin",
+     "linkedin-mac",
+     "conectar",
+     "mejorar-crm",
+     "communication",
+     "dossier"
+    ]
+   },
+   {
+    "clave": "compromisos",
+    "nombre": "Commitments",
+    "lider": "lider-compromisos",
+    "meta": "What you owe and what you're owed gets done on time — classes, Northbeam outreach, and the things others promised you.",
+    "miembros": [
+     "esperando",
+     "bentley",
+     "cracks"
+    ]
+   },
+   {
+    "clave": "pensamiento",
+    "nombre": "Thinking",
+    "lider": "lider-pensamiento",
+    "meta": "You think better each week: what you read stays, what you study solves a real problem, and the council keeps your direction above your tasks.",
+    "miembros": [
+     "coach",
+     "consejo",
+     "estudio",
+     "leccion",
+     "digest",
+     "registro",
+     "reflexion",
+     "estudiar",
+     "grilling",
+     "estratega",
+     "filosofo"
+    ]
+   },
+   {
+    "clave": "mantenimiento",
+    "nombre": "Upkeep",
+    "lider": "lider-mantenimiento",
+    "meta": "The machinery runs on its own: fresh copies of every channel, a second brain that stays text and in sync, backups, and an Architect that fixes what breaks.",
+    "miembros": [
+     "mi-manana",
+     "canales",
+     "canales-mac",
+     "aduana",
+     "sincronia",
+     "taller",
+     "respaldo-semanal",
+     "tiempo",
+     "cierre",
+     "arquitecto"
+    ]
+   }
+  ],
+  "agentes": [
+   {
+    "id": "prep",
+    "tipo": "trabajo",
+    "nombre": "Meeting prep",
+    "hace": "Writes a one-page brief for every meeting on today's calendar: who the person is, what you last said, what you owe them, and the one thing to get out of it.",
+    "pide": "Mark each brief useful or not",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Makes sure you never walk into a meeting cold — today it prepared Dana Whitfield (Atlas Freight) and Grace Kim.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:21 · ok · 3 briefs: Dana Whitfield at 11:00 (pilot scope), Grace Kim at 15:30 (pricing), Founders' Table sync at 18:00.",
+     "Wed 21 Oct 03:19 · ok · 2 briefs: Marco Ruiz weekly (Northbeam pipeline), Prof. Priya Nair office hours (CS 210 project scope).",
+     "Tue 20 Oct 03:24 · ok · 2 briefs: Ethan Cole coffee (what he asked about pricing last time), Ana Torres (demo-night deck).",
+     "Mon 19 Oct 03:18 · sin-novedad · No meetings with people outside classes today; nothing to prepare.",
+     "Sun 18 Oct 03:30 · ok · 1 brief for Monday's call with Omar Haddad: his logistics startup, the intro from Grace, two questions to ask."
+    ]
+   },
+   {
+    "id": "prep-mac",
+    "tipo": "trabajo",
+    "nombre": "Meeting prep (Mac half)",
+    "hace": "On the Mac, adds what the cloud can't see to each brief: the latest WhatsApp thread with the person and any file they sent you.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Fills the gaps in each brief with what was said on WhatsApp, so the brief is complete before you open it.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:08 · ok · Added the WhatsApp thread with Sofia Herrera (venue change) to the Founders' Table brief.",
+     "Wed 21 Oct 03:06 · ok · Added Marco Ruiz's voice-note summary (two new leads) to the Northbeam weekly brief.",
+     "Tue 20 Oct 03:07 · sin-novedad · No WhatsApp or files from today's people since their last brief."
+    ]
+   },
+   {
+    "id": "platicas",
+    "tipo": "trabajo",
+    "nombre": "Conversations",
+    "hace": "Reads each meeting you recorded and writes what was said into that person's page in your CRM: what they care about, what was promised, what changed.",
+    "pide": "Confirm who was in an unclear meeting",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Keeps every person's page current, so the next conversation starts where the last one ended.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:15 · ok · Updated 3 people: Marco Ruiz, Liam O'Connor, Hannah Brooks. One meeting with no names left for you to confirm.",
+     "Wed 21 Oct 03:14 · fallo · Couldn't tell who 'Speaker B' was in Tuesday's 40-minute call; stopped instead of guessing.",
+     "Tue 20 Oct 03:12 · ok · Updated Ethan Cole (wants to see the Atlas pilot numbers first) and Ana Torres (deck draft by Friday).",
+     "Mon 19 Oct 03:16 · ok · Updated Omar Haddad and Grace Kim from Sunday's dinner notes."
+    ]
+   },
+   {
+    "id": "seguimiento",
+    "tipo": "trabajo",
+    "nombre": "Follow-ups",
+    "hace": "After each meeting, drafts the follow-up email in your voice with what was agreed and the next date. Leaves it in your drafts; you send it.",
+    "pide": "Send or toss each draft",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Closes the loop after every meeting within a day, so promises don't decay into 'we should catch up'.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:26 · ok · 2 drafts: thank-you and next steps to Grace Kim; deck feedback to Ana Torres.",
+     "Wed 21 Oct 03:25 · ok · 1 draft to Marco Ruiz with the three leads and who calls whom.",
+     "Tue 20 Oct 03:27 · ok · 1 draft to Ethan Cole promising the Atlas pilot numbers by Nov 6."
+    ]
+   },
+   {
+    "id": "linkedin",
+    "tipo": "trabajo",
+    "nombre": "LinkedIn",
+    "hace": "Reads your LinkedIn copy and suggests one post idea from your week and three people worth a comment, each with a draft you can post yourself.",
+    "pide": "Pick or toss the post idea",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Keeps your network warm with a few honest touches a week instead of a content calendar.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:33 · ok · Post idea: what the Atlas Freight pilot taught you about dispatch handoffs. Comment drafts for Ben Carter and Nora Lindqvist.",
+     "Tue 20 Oct 03:31 · ok · 3 comment drafts; Hannah Brooks posted about an internship program that fits Liam O'Connor.",
+     "Mon 19 Oct 03:34 · sin-novedad · Nothing in your feed worth your time today."
+    ]
+   },
+   {
+    "id": "linkedin-mac",
+    "tipo": "trabajo",
+    "nombre": "LinkedIn (Mac half)",
+    "hace": "On the Mac, in your Chrome, copies your LinkedIn feed and messages to text and likes up to five posts from people in your CRM. It never posts or comments.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Gives the LinkedIn agent fresh text to read and keeps light contact with your people.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:02 · ok · Copied 46 feed posts and 2 messages; liked 4 posts (Grace Kim, Omar Haddad, Ben Carter, Sofia Herrera).",
+     "Wed 21 Oct 03:03 · fallo · LinkedIn showed a sign-in check; stopped and left it for you, as the rule says.",
+     "Tue 20 Oct 03:01 · ok · Copied 39 feed posts; liked 3."
+    ]
+   },
+   {
+    "id": "conectar",
+    "tipo": "trabajo",
+    "nombre": "Introductions",
+    "hace": "Twice a week, looks across your CRM for two people who should meet and writes why, plus a two-line intro you could send.",
+    "pide": "Say yes or no to each intro",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Turns your network into a two-way street: you make the introductions people remember.",
+    "tiene_estado": true,
+    "corridas": [
+     "Tue 20 Oct 03:40 · ok · Suggested Omar Haddad ↔ Dana Whitfield (both fighting carrier no-shows) and Liam O'Connor ↔ Hannah Brooks.",
+     "Fri 16 Oct 03:42 · ok · Suggested Ana Torres ↔ Sofia Herrera (demo-night branding).",
+     "Tue 13 Oct 03:39 · sin-novedad · No pair strong enough this time."
+    ]
+   },
+   {
+    "id": "mejorar-crm",
+    "tipo": "en-vivo",
+    "nombre": "Improve your CRM",
+    "hace": "A working session with you: adds the people you met since the last pass, resolves duplicates, and asks a few questions that wake up dormant relationships.",
+    "pide": "20 minutes of your answers",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "The only place new people enter the CRM with your judgment on them.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "communication",
+    "tipo": "en-vivo",
+    "nombre": "Your voice",
+    "hace": "Writes any email or message you'll send to another person in your voice, and formal documents like proposals and one-pagers.",
+    "pide": "Who it's for and what you want",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Every draft the People agents leave you is written with these rules.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "dossier",
+    "tipo": "en-vivo",
+    "nombre": "Dossier",
+    "hace": "Builds the file on a public person: what they say in interviews and podcasts that isn't in their books, in one note you can reuse.",
+    "pide": "The person's name",
+    "nota": "",
+    "orquestador": "personas",
+    "su_parte": "Prepares you before you meet someone whose public thinking matters to the meeting.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "esperando",
+    "tipo": "trabajo",
+    "nombre": "Waiting for",
+    "hace": "Reads your 'Waiting for' list and, for each thing someone owes you that's gone quiet, drafts a short nudge and the date to send it.",
+    "pide": "Send, snooze or close each nudge",
+    "nota": "",
+    "orquestador": "compromisos",
+    "su_parte": "Nothing you're owed slips: the Atlas Freight data export, Sofia's venue confirmation, Ben's intro.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:28 · ok · 2 nudges: Dana Whitfield (shipment data export, 6 days quiet), Ben Carter (intro to his partner, 9 days).",
+     "Wed 21 Oct 03:27 · ok · 1 nudge: Sofia Herrera on the venue contract; 1 closed (Ana sent the deck).",
+     "Tue 20 Oct 03:29 · sin-novedad · Everything you're waiting for is inside its expected window.",
+     "Mon 19 Oct 03:30 · ok · 3 nudges drafted after the weekend; you sent 2 and snoozed 1.",
+     "Sun 18 Oct 03:31 · ok · Moved Prof. Okafor's grade question to 'closed' — he answered by email."
+    ]
+   },
+   {
+    "id": "bentley",
+    "tipo": "trabajo",
+    "nombre": "Classes",
+    "hace": "Reads your course sites and syllabi, lists what's due this week in CS 210, MKT 310 and PHIL 120, and blocks reading time on the calendar copy.",
+    "pide": "Confirm a deadline it isn't sure of",
+    "nota": "",
+    "orquestador": "compromisos",
+    "su_parte": "Keeps your classes from becoming the emergency that eats a Northbeam week.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:11 · ok · Due this week: CS 210 project proposal (Fri 23:59), PHIL 120 reflection on Aristotle (Sun). MKT 310 case moved to Tue.",
+     "Wed 21 Oct 03:10 · fallo · The MKT 310 syllabus and the course site disagree on the brand-audit date; asked you instead of picking one.",
+     "Tue 20 Oct 03:12 · ok · Added two readings for PHIL 120 and Prof. Nair's office-hours change.",
+     "Mon 19 Oct 03:09 · ok · Week plan: 6 hours of class work, heaviest on Thursday."
+    ]
+   },
+   {
+    "id": "cracks",
+    "tipo": "trabajo",
+    "nombre": "Outreach",
+    "hace": "Finds small firms that fit Northbeam, writes a short first email for each in your voice, and tracks who replies. You send every one.",
+    "pide": "Approve or toss each draft",
+    "nota": "",
+    "orquestador": "compromisos",
+    "su_parte": "Feeds the Northbeam pipeline with five good first emails a week, not fifty bad ones.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:36 · ok · 3 drafts: two freight brokers near Worcester and a family-run 3PL in Providence. Reply rate this month: 18%.",
+     "Tue 20 Oct 03:35 · fallo · Two of yesterday's drafts used a generic opener; held them back for a rewrite.",
+     "Mon 19 Oct 03:37 · ok · 2 drafts; Omar Haddad's referral list added 4 firms to the queue."
+    ]
+   },
+   {
+    "id": "coach",
+    "tipo": "trabajo",
+    "nombre": "English coach",
+    "hace": "Listens to your recorded meetings and picks one English pattern that would cost you in a business meeting, with the exact line and a better one.",
+    "pide": "Mark the lesson useful or not",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Sharpens how you put your point across to clients like Dana Whitfield, one pattern a day.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:44 · ok · Pattern: 'you need to' with clients reads as an order. Try 'what if we'. From Tuesday's call with Ethan Cole.",
+     "Wed 21 Oct 03:42 · fallo · The meeting copy was empty for Tuesday; skipped instead of reusing an old lesson.",
+     "Tue 20 Oct 03:43 · ok · Pattern: dropping the hedge on estimates ('it will take two weeks'). Try 'we expect two weeks'."
+    ]
+   },
+   {
+    "id": "consejo",
+    "tipo": "trabajo",
+    "nombre": "Your council",
+    "hace": "Each morning, lets two voices — the Strategist and the Philosopher — read your week and say the one thing you should hear today, quoting the people you chose.",
+    "pide": "Mark it useful or not",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Keeps direction above tasks: is this week's work pointing where your life is going?",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:47 · ok · Strategist: the Atlas proposal is the bottleneck; demo night can run on Sofia. Philosopher: who is the proposal for?",
+     "Wed 21 Oct 03:46 · ok · Philosopher: you've said 'busy' four times this week. Busy with what you chose, or what chose you?",
+     "Tue 20 Oct 03:48 · ok · Strategist: three fronts moved by less than an hour each. Pick one for Wednesday."
+    ]
+   },
+   {
+    "id": "estudio",
+    "tipo": "trabajo",
+    "nombre": "Study queue",
+    "hace": "Turns each link, video or paper you add to the queue into a short 80/20 note, and offers one item a day for a deeper session.",
+    "pide": "Keep, study or drop each item",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Makes sure what you study solves a problem you have this week.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:51 · ok · 2 notes: a talk on pricing services for small firms, a paper on agent evaluation (fits CS 210).",
+     "Wed 21 Oct 03:50 · ok · 1 note: 'The Mom Test' chapter on customer interviews — matches Friday's Atlas call.",
+     "Tue 20 Oct 03:49 · sin-novedad · Queue empty; nothing new added."
+    ]
+   },
+   {
+    "id": "leccion",
+    "tipo": "trabajo",
+    "nombre": "Daily lesson",
+    "hace": "Writes your flashcards from the books and notes you marked, and picks today's ten to review.",
+    "pide": "Rate each flashcard",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Makes what you read stay — the ideas you keep repeating in meetings come from here.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:53 · ok · 10 flashcards due: 4 from 'High Output Management', 3 PHIL 120, 3 your own notes on pricing.",
+     "Wed 21 Oct 03:52 · ok · 8 flashcards due; 3 new from Aristotle's Ethics, Book II.",
+     "Tue 20 Oct 03:54 · ok · 12 flashcards due; retired 2 you got right five times in a row."
+    ]
+   },
+   {
+    "id": "digest",
+    "tipo": "trabajo",
+    "nombre": "Morning digest",
+    "hace": "Reads the newsletters and feeds you follow and keeps only what touches this week's work, three items or fewer, with the link.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Cuts the noise: if it doesn't help Northbeam, classes or Founders' Table this week, it isn't in the digest.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:55 · ok · 3 items: a freight-tech funding round, a new model release worth testing in CS 210, a piece on running community events.",
+     "Wed 21 Oct 03:55 · ok · 2 items; dropped 31.",
+     "Tue 20 Oct 03:56 · sin-novedad · Nothing worth your time today."
+    ]
+   },
+   {
+    "id": "registro",
+    "tipo": "trabajo",
+    "nombre": "Reading log",
+    "hace": "Checks what you finished on your reading and audiobook apps and asks you for a rating and one line on each, then files it in your library.",
+    "pide": "A rating and one line per book",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Keeps a true record of what you read, so the council and the lessons draw from it.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:57 · ok · You finished 'The Effective Executive' (audiobook). Waiting for your rating.",
+     "Mon 19 Oct 03:58 · ok · Logged 'Man's Search for Meaning', 5 stars, your line saved.",
+     "Sat 17 Oct 03:57 · sin-novedad · Nothing finished this week."
+    ]
+   },
+   {
+    "id": "reflexion",
+    "tipo": "en-vivo",
+    "nombre": "Reflection",
+    "hace": "Opens your council live: the Strategist and the Philosopher on whatever you bring, giving you only what you need to hear today.",
+    "pide": "What's on your mind",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "The live door to the same council that writes to you each morning.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "estudiar",
+    "tipo": "en-vivo",
+    "nombre": "Study",
+    "hace": "Adds something to your study queue, or runs the 90-minute deep session on an item when you paste its prompt.",
+    "pide": "A link, a file or an idea",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "The live door to the study queue.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "grilling",
+    "tipo": "en-vivo",
+    "nombre": "Grill me",
+    "hace": "Questions a plan or decision relentlessly until every assumption is named.",
+    "pide": "The plan",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Stress-tests big decisions before they cost you, like the Northbeam pricing.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "estratega",
+    "tipo": "en-vivo",
+    "nombre": "Strategist",
+    "hace": "One voice of your council: where your life is heading and what's holding it back, answered through the people you chose.",
+    "pide": "A direction or decision",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Called by name when you weigh a front or a big decision.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "filosofo",
+    "tipo": "en-vivo",
+    "nombre": "Philosopher",
+    "hace": "The other voice: what's underneath a decision, and the question you haven't asked yourself yet.",
+    "pide": "A position or a doubt",
+    "nota": "",
+    "orquestador": "pensamiento",
+    "su_parte": "Trains your questioning instead of answering for you.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "mi-manana",
+    "tipo": "trabajo",
+    "nombre": "My morning",
+    "hace": "Wakes at 3:00 and runs every job due today — the Mac ones that need your Chrome or files, and the cloud ones — in under 30 minutes, then lays out your day's view.",
+    "pide": "The one thing that needs your hands, in the first minute",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Conducts the whole morning run; every other agent here is one of its steps.",
+    "tiene_estado": false,
+    "corridas": [
+     "Thu 22 Oct 03:58 · ok · 24 jobs ran, 22 ok, 2 with nothing new. 27 minutes.",
+     "Wed 21 Oct 03:59 · ok · 24 jobs ran; 4 stopped on purpose and explained why. 29 minutes.",
+     "Tue 20 Oct 03:55 · ok · 23 jobs ran, all ok. 25 minutes."
+    ]
+   },
+   {
+    "id": "canales",
+    "tipo": "trabajo",
+    "nombre": "Channels",
+    "hace": "Copies every channel to text each hour — mail, recorded meetings, tasks, calendar, course site — so every agent reads the same fresh copy.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Everything else depends on it: if the copies are stale, every brief and nudge is wrong.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:04 · ok · 41 emails, 3 meetings, 12 task changes, 9 calendar events copied. Course site unchanged.",
+     "Wed 21 Oct 03:05 · fallo · The meetings copy came back empty for Tuesday; the fix now retries once before writing.",
+     "Tue 20 Oct 03:04 · ok · 37 emails, 2 meetings, 8 task changes copied."
+    ]
+   },
+   {
+    "id": "canales-mac",
+    "tipo": "trabajo",
+    "nombre": "Channels (Mac half)",
+    "hace": "On the Mac, copies what only lives there — WhatsApp, LinkedIn, X — to text, in your Chrome, without writing anything.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Gives the People agents what was said on WhatsApp and LinkedIn.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:01 · ok · Copied 18 WhatsApp chats (212 new messages) and 6 X posts you saved.",
+     "Wed 21 Oct 03:01 · ok · Copied 15 WhatsApp chats.",
+     "Tue 20 Oct 03:00 · ok · Copied 20 WhatsApp chats."
+    ]
+   },
+   {
+    "id": "aduana",
+    "tipo": "trabajo",
+    "nombre": "Filing",
+    "hace": "Files whatever you drop in your personal folders: writes each document's note in your second brain at the same place, and sends stray originals back where they belong.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Keeps your second brain 100% text, so every agent can read your PDFs and spreadsheets.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:13 · ok · 2 notes: 'Atlas Freight — lane data Q3.xlsx' (with one text copy per sheet), 'CS 210 project rubric.pdf'.",
+     "Wed 21 Oct 03:12 · ok · 1 note: Founders' Table venue contract.",
+     "Tue 20 Oct 03:13 · sin-novedad · No new files."
+    ]
+   },
+   {
+    "id": "sincronia",
+    "tipo": "trabajo",
+    "nombre": "Sync",
+    "hace": "Finds facts copied in several notes and replaces the copies with a pointer to their one home, so you change a fact once.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Stops your second brain from contradicting itself.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:49 · ok · Replaced 3 copies of this week's focus with pointers.",
+     "Mon 19 Oct 03:48 · ok · Fixed 2 broken links after you renamed the Northbeam folder.",
+     "Sun 18 Oct 03:50 · sin-novedad · No copies found."
+    ]
+   },
+   {
+    "id": "taller",
+    "tipo": "trabajo",
+    "nombre": "The Architect's morning pass",
+    "hace": "Reads how every agent did overnight, fixes the small breaks, and brings you only the ones that need your call.",
+    "pide": "Your call on what it can't decide",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Keeps the agents healthy without you babysitting them.",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:57 · ok · Fixed the Channels retry; 1 question for you about your day's view.",
+     "Wed 21 Oct 03:56 · ok · Fixed the Conversations name check and the LinkedIn sign-in stop.",
+     "Tue 20 Oct 03:55 · ok · All agents healthy; tightened the Outreach opener rule."
+    ]
+   },
+   {
+    "id": "respaldo-semanal",
+    "tipo": "trabajo",
+    "nombre": "Weekly backup",
+    "hace": "Checks every Sunday that your second brain is fully backed up and that a copy can be restored.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Means a lost laptop costs you an afternoon, not your second brain.",
+    "tiene_estado": true,
+    "corridas": [
+     "Sun 18 Oct 04:02 · ok · Backup complete; restored a test copy of 3 notes and compared them.",
+     "Sun 11 Oct 04:01 · ok · Backup complete.",
+     "Sun 4 Oct 04:03 · ok · Backup complete."
+    ]
+   },
+   {
+    "id": "tiempo",
+    "tipo": "trabajo",
+    "nombre": "Your hours",
+    "hace": "Compares where your hours went last week with the focus you declared, and says it in one line.",
+    "pide": "Nothing — it never asks you",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Watches for the drift between what you say matters and what your calendar shows.",
+    "tiene_estado": true,
+    "corridas": [
+     "Mon 19 Oct 03:45 · ok · Last week: 14 h classes, 9 h Northbeam, 6 h Founders' Table, 3 h Atlas. Focus said Northbeam first.",
+     "Mon 12 Oct 03:44 · ok · 11 h Northbeam, 13 h classes.",
+     "Mon 5 Oct 03:46 · ok · First week measured."
+    ]
+   },
+   {
+    "id": "cierre",
+    "tipo": "trabajo",
+    "nombre": "Weekly close",
+    "hace": "On Sunday, gathers your week — goals hit, promises open, people who went quiet — and asks you the questions only you can answer before the new week opens.",
+    "pide": "Your answers, about 15 minutes",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Closes one week and opens the next with your goals, not the agents'.",
+    "tiene_estado": true,
+    "corridas": [
+     "Sun 18 Oct 04:05 · ok · Week closed: 2 of 3 goals hit; Founders' Table headcount moved to this week.",
+     "Sun 11 Oct 04:04 · ok · Week closed: 3 of 3 goals hit.",
+     "Sun 4 Oct 04:06 · ok · Week closed: 1 of 3; you named the reason (midterms)."
+    ]
+   },
+   {
+    "id": "arquitecto",
+    "tipo": "en-vivo",
+    "nombre": "The Architect",
+    "hace": "The one way any agent is created, changed or retired: explains in plain words, tries the change on real data, and records the lesson.",
+    "pide": "What you want changed",
+    "nota": "",
+    "orquestador": "mantenimiento",
+    "su_parte": "Every change to the machinery goes through it.",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "bandeja",
+    "tipo": "trabajo",
+    "nombre": "Inbox",
+    "hace": "Reads both inboxes and puts only the urgent mail on today's view, with a one-line reason. It never sends, archives or labels.",
+    "pide": "Nothing — it never asks you",
+    "nota": "Serves every orchestrator at once; it stays outside until you decide whose it is.",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:17 · ok · 2 urgent: Dana Whitfield asks to move Friday's call; CS 210 team needs your section by tonight.",
+     "Wed 21 Oct 03:16 · ok · 1 urgent: venue invoice for Founders' Table.",
+     "Tue 20 Oct 03:17 · sin-novedad · Nothing urgent."
+    ]
+   },
+   {
+    "id": "cabina",
+    "tipo": "trabajo",
+    "nombre": "Your day's view",
+    "hace": "Builds the top of your panel each morning: today's calendar, priority-1 tasks, urgent mail and the prep that's ready.",
+    "pide": "Which front goes first when two collide",
+    "nota": "It's the panel itself, not one goal's agent.",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": true,
+    "corridas": [
+     "Thu 22 Oct 03:58 · ok · Today: 3 meetings, 4 priority-1 tasks, 2 urgent emails, 3 briefs ready.",
+     "Wed 21 Oct 03:59 · ok · Today: 2 meetings, 5 priority-1 tasks.",
+     "Tue 20 Oct 03:58 · ok · Today: 2 meetings, 3 priority-1 tasks."
+    ]
+   },
+   {
+    "id": "transcript",
+    "tipo": "herramienta",
+    "nombre": "YouTube transcript",
+    "hace": "Pulls the transcript of a video, whole or between two timestamps.",
+    "pide": "A link",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "prompt",
+    "tipo": "herramienta",
+    "nombre": "Prompt writer",
+    "hace": "Writes a self-contained prompt you can paste into another chat, with the context it can't see.",
+    "pide": "What the other chat should do",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "podcast-documento",
+    "tipo": "herramienta",
+    "nombre": "Doc to podcast",
+    "hace": "Turns a paper or reading into an episode of your private podcast feed.",
+    "pide": "The document",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "research",
+    "tipo": "herramienta",
+    "nombre": "Research",
+    "hace": "Investigates a question against primary sources and saves the findings as a note.",
+    "pide": "The question",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "wayfinder",
+    "tipo": "herramienta",
+    "nombre": "Wayfinder",
+    "hace": "Plans a project too big for one session as a map of decisions, resolved one at a time.",
+    "pide": "The destination",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "prototype",
+    "tipo": "herramienta",
+    "nombre": "Prototype",
+    "hace": "Builds a throwaway prototype to answer one design question.",
+    "pide": "The question",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "ubiquitous-language",
+    "tipo": "herramienta",
+    "nombre": "Glossary",
+    "hace": "Pulls the shared vocabulary out of a project and proposes one word per idea.",
+    "pide": "The project",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "indice",
+    "tipo": "herramienta",
+    "nombre": "Second brain's index",
+    "hace": "Regenerates the index of heavy notes so agents read sections, not whole files.",
+    "pide": "Nothing",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "deep-research",
+    "tipo": "herramienta",
+    "nombre": "Deep research",
+    "hace": "Runs a multi-source research sweep and writes a narrative report.",
+    "pide": "The topic",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "docs",
+    "tipo": "herramienta",
+    "nombre": "Docs",
+    "hace": "Opens or creates a shared document you'll keep editing.",
+    "pide": "What it's for",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "pdf",
+    "tipo": "herramienta",
+    "nombre": "PDF",
+    "hace": "Reads, merges, splits or fills a PDF.",
+    "pide": "The file",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "xlsx",
+    "tipo": "herramienta",
+    "nombre": "Spreadsheet",
+    "hace": "Opens, cleans or builds a spreadsheet.",
+    "pide": "The file",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "learn",
+    "tipo": "herramienta",
+    "nombre": "Teach me",
+    "hace": "Explains how something works, then quizzes you on it.",
+    "pide": "The topic",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "consolidate-memory",
+    "tipo": "herramienta",
+    "nombre": "Memory tidy",
+    "hace": "Merges duplicate memories and fixes stale facts.",
+    "pide": "Nothing",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   },
+   {
+    "id": "schedule",
+    "tipo": "herramienta",
+    "nombre": "Scheduler",
+    "hace": "Creates or changes a job that runs on its own at a set time.",
+    "pide": "When and what",
+    "nota": "",
+    "orquestador": null,
+    "su_parte": "",
+    "tiene_estado": false,
+    "corridas": []
+   }
+  ],
+  "problemas": [],
+  "atencion": {
+   "fecha": "2026-10-22 03:57",
+   "filas": {
+    "canales": {
+     "estado": "arreglado",
+     "que": "The meetings copy came back empty on Wednesday morning, so Conversations and the English coach had nothing to read. Channels now retries once and writes a notice instead of an empty file.",
+     "extra": "2026-10-23 03:00"
+    },
+    "coach": {
+     "estado": "arreglado",
+     "que": "With an empty meetings copy the coach skipped its lesson instead of failing loudly. It now waits for the Channels retry and only skips if the copy is still empty.",
+     "extra": "2026-10-23 03:40"
+    },
+    "platicas": {
+     "estado": "arreglado",
+     "que": "It stopped on an unnamed speaker in Tuesday's call. It now matches the calendar invite first and only asks you when the invite has more than one outside guest.",
+     "extra": "2026-10-23 03:15"
+    },
+    "linkedin-mac": {
+     "estado": "arreglado",
+     "que": "LinkedIn showed a sign-in check on Wednesday and the agent stopped, as it should. It now waits a day and tries once with a slower pace; if the check returns, it leaves it for you again.",
+     "extra": "2026-10-23 03:02"
+    },
+    "cabina": {
+     "estado": "necesita-a-pablo",
+     "que": "Saturday has the Founders' Table demo night and a CS 210 proposal revision due Sunday; both claim the afternoon.",
+     "extra": "On days like this, should demo night go first on your day's view, or the class deadline?"
+    }
+   }
+  },
+  "historia": [
+   {
+    "fecha": "2026-10-22",
+    "tipo": "changed",
+    "que": "Channels: retries the meetings copy once before writing, and leaves a notice instead of an empty file — Conversations and the English coach no longer start from nothing."
+   },
+   {
+    "fecha": "2026-10-21",
+    "tipo": "changed",
+    "que": "Conversations: names an unclear speaker from the calendar invite before asking you; asks only when two or more outside guests could fit."
+   },
+   {
+    "fecha": "2026-10-21",
+    "tipo": "changed",
+    "que": "LinkedIn (Mac half): after a sign-in check it waits a day and retries once at a slower pace, then stops for you."
+   },
+   {
+    "fecha": "2026-10-20",
+    "tipo": "changed",
+    "que": "Outreach: no generic openers — every first email must name one concrete thing about the firm, or it's held back."
+   },
+   {
+    "fecha": "2026-10-19",
+    "tipo": "added",
+    "que": "Your hours: compares last week's hours with your declared focus, in one line on Monday."
+   },
+   {
+    "fecha": "2026-10-18",
+    "tipo": "changed",
+    "que": "Weekly close: asks about people who went quiet this week, not only goals and promises."
+   },
+   {
+    "fecha": "2026-10-17",
+    "tipo": "added",
+    "que": "Introductions: twice a week suggests two people in your CRM who should meet, with a two-line intro you could send."
+   },
+   {
+    "fecha": "2026-10-17",
+    "tipo": "changed",
+    "que": "The agents page reads the list of agents from their own files, so adding or retiring one shows up everywhere at once."
+   },
+   {
+    "fecha": "2026-10-16",
+    "tipo": "changed",
+    "que": "Your day's view: priority-1 tasks now sit above the calendar."
+   },
+   {
+    "fecha": "2026-10-15",
+    "tipo": "changed",
+    "que": "Meeting prep: every brief ends with the one thing to get out of the meeting."
+   },
+   {
+    "fecha": "2026-10-14",
+    "tipo": "added",
+    "que": "Meeting prep (Mac half): adds the latest WhatsApp thread and files to each brief."
+   },
+   {
+    "fecha": "2026-10-13",
+    "tipo": "changed",
+    "que": "Orchestrators replace the old groups: each one is a goal of yours plus the agents that serve it."
+   },
+   {
+    "fecha": "2026-10-12",
+    "tipo": "added",
+    "que": "Waiting for: drafts a short nudge for anything owed to you that's gone quiet, with the date to send it."
+   },
+   {
+    "fecha": "2026-10-10",
+    "tipo": "changed",
+    "que": "English coach: one pattern a day, only if it would cost you in a real business meeting."
+   },
+   {
+    "fecha": "2026-10-08",
+    "tipo": "added",
+    "que": "Trust scores: each agent is scored over 14 days on how often it runs, how often you approve it as is, and how carefully you decide."
+   },
+   {
+    "fecha": "2026-10-06",
+    "tipo": "added",
+    "que": "Classes: reads your course sites and syllabi and lists what's due this week."
+   },
+   {
+    "fecha": "2026-10-02",
+    "tipo": "added",
+    "que": "Your council: the Strategist and the Philosopher write you one thing each morning."
+   },
+   {
+    "fecha": "2026-09-28",
+    "tipo": "added",
+    "que": "Study queue: turns each link into an 80/20 note and offers one deep session a day."
+   }
+  ]
+ },
+ "confianza": {
+  "desde": "2026-10-08",
+  "agentes": {
+   "aduana": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "bandeja": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "bentley": {
+    "puntos": 53,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.857,
+      "12 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.0,
+      "0 of 3 approved as is",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no heavy edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.0,
+      "no reason on 2 tossed",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      1.0,
+      "all within the day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 3,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Needs fixing · the Architect should look at it"
+   },
+   "cabina": {
+    "puntos": 75,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.75,
+      "3 of 4 mornings without your call",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Good · keep reviewing"
+   },
+   "canales": {
+    "puntos": 93,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.929,
+      "13 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "canales-mac": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "cierre": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "2 of 2 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": 19.7,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "coach": {
+    "puntos": 93,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.929,
+      "13 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      1.0,
+      "14 of 14 approved",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      1.0,
+      "nothing tossed",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.75,
+      "1 decided after 3 hours",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 1,
+    "segundos_promedio": 13283.4,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "conectar": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "4 of 4 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": 150.4,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "consejo": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      1.0,
+      "14 of 14 useful",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      1.0,
+      "nothing tossed",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      1.0,
+      "all within the hour",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 1,
+    "segundos_promedio": 51.7,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "cracks": {
+    "puntos": 45,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.857,
+      "12 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.0,
+      "0 of 2 approved as is",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no heavy edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.0,
+      "2 tossed, no reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      1.0,
+      "all within the day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 2,
+    "segundos_promedio": 90.5,
+    "rapido": false,
+    "veredicto": "Needs fixing · the Architect should look at it"
+   },
+   "digest": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "esperando": {
+    "puntos": 85,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.667,
+      "18 of 26 sent as is",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "7 light edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      1.0,
+      "1 tossed with a reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.667,
+      "9 decided after a day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 26,
+    "segundos_promedio": 793.0,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "estudio": {
+    "puntos": 91,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      1.0,
+      "19 of 19 kept or studied",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      1.0,
+      "every drop had a reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.5,
+      "half decided after a day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 19,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "leccion": {
+    "puntos": 74,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.6,
+      "6 of 10 rated useful",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.4,
+      "4 skipped, no reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.5,
+      "half reviewed late",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 10,
+    "segundos_promedio": 9831.7,
+    "rapido": false,
+    "veredicto": "Good · keep reviewing"
+   },
+   "linkedin": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      1.0,
+      "1 of 1 picked",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      1.0,
+      "nothing tossed",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      1.0,
+      "decided the same day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 1,
+    "segundos_promedio": 19509.0,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "linkedin-mac": {
+    "puntos": 89,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.857,
+      "12 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "platicas": {
+    "puntos": 53,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.786,
+      "11 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.333,
+      "1 of 3 confirmed as is",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no heavy edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.0,
+      "no reason on 2 tossed",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.667,
+      "1 left a day",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 3,
+    "segundos_promedio": 545.8,
+    "rapido": false,
+    "veredicto": "Needs fixing · the Architect should look at it"
+   },
+   "prep": {
+    "puntos": 85,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.75,
+      "24 of 32 marked useful",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.75,
+      "6 of 8 with a reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.75,
+      "most before the meeting",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 32,
+    "segundos_promedio": 319.5,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "prep-mac": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "registro": {
+    "puntos": 73,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      0.3
+     ],
+     [
+      "Approved as is",
+      0.8,
+      "95 of 119 accepted",
+      0.25
+     ],
+     [
+      "Light edits only",
+      1.0,
+      "no edits",
+      0.15
+     ],
+     [
+      "Reasons when tossed",
+      0.5,
+      "half tossed with no reason",
+      0.15
+     ],
+     [
+      "Decided while it still mattered",
+      0.4,
+      "most rated days later",
+      0.15
+     ]
+    ],
+    "nunca_pregunta": false,
+    "pedidas": 119,
+    "segundos_promedio": 4.2,
+    "rapido": true,
+    "veredicto": "Good · keep reviewing"
+   },
+   "respaldo-semanal": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "2 of 2 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "seguimiento": {
+    "puntos": 93,
+    "criterios": [
+     [
+      "Runs reliably",
+      0.929,
+      "13 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": 153.2,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "sincronia": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "taller": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "14 of 14 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "tiempo": {
+    "puntos": 100,
+    "criterios": [
+     [
+      "Runs reliably",
+      1.0,
+      "2 of 2 runs ok",
+      1.0
+     ]
+    ],
+    "nunca_pregunta": true,
+    "pedidas": 0,
+    "segundos_promedio": null,
+    "rapido": false,
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   }
+  },
+  "orquestadores": {
+   "personas": {
+    "puntos": 89,
+    "agentes": [
+     "prep",
+     "prep-mac",
+     "platicas",
+     "seguimiento",
+     "linkedin",
+     "linkedin-mac",
+     "conectar"
+    ],
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "compromisos": {
+    "puntos": 61,
+    "agentes": [
+     "esperando",
+     "bentley",
+     "cracks"
+    ],
+    "veredicto": "Good · keep reviewing"
+   },
+   "pensamiento": {
+    "puntos": 88,
+    "agentes": [
+     "coach",
+     "consejo",
+     "estudio",
+     "leccion",
+     "digest",
+     "registro"
+    ],
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   },
+   "mantenimiento": {
+    "puntos": 99,
+    "agentes": [
+     "aduana",
+     "canales",
+     "canales-mac",
+     "sincronia",
+     "taller",
+     "respaldo-semanal",
+     "tiempo",
+     "cierre"
+    ],
+    "veredicto": "Trusted · it could stop asking you about the easy ones"
+   }
+  }
+ }
+}

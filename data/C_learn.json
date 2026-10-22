@@ -1,0 +1,402 @@
+{
+ "coach": [
+  {
+   "id": "coa-1021-atlas",
+   "junta": "Atlas Freight scoping call with Dana Whitfield (COO)",
+   "fecha_junta": "2026-10-21",
+   "cuerpo": "## What happened\n\nA 40-minute call to scope the Northbeam pilot. Dana opened with the dispatch backlog: three coordinators re-keying load confirmations from email into the TMS, about 11 hours a week each. At minute 6 you were already describing the agent that would read the confirmations. She stopped you at minute 9: *\"Before the how — I need to know what breaks if it's wrong.\"* You recovered well, but you spent the next ten minutes answering a question you had not asked her.\n\n## What worked\n\n- **You quantified fast.** \"Three people, eleven hours each, that's a full headcount a week\" landed. She repeated it back to you later, which means it is now her number.\n- **You named the owner.** When she asked who answers if the agent mis-keys a rate, you said \"your coordinator approves every write for the first 30 days.\" That is the sentence that kept the call alive.\n- **You closed on a date.** Proposal by Friday, decision call the week after. Clean.\n\n## The one thing to change\n\n**Ask the cost question before you pitch.** Dana's role is COO of a freight broker: being wrong on a rate costs her a customer; being right saves her hours nobody thanks her for. Her cost function is asymmetric, and you pitched upside to someone who was listening for downside.\n\nThe question you skipped, at minute 5:\n\n> \"What's the worst thing that could happen if we automate this and it gets one wrong?\"\n\nHer answer would have handed you the pilot's guardrails, and she would have designed half of the proposal for you.\n\n## ✍️ The better line\n\nWhat you said:\n> \"So basically the agent reads every confirmation and pushes it straight into the TMS, and your team just stops doing that.\"\n\nWhat lands with a COO:\n> \"For the first month the agent drafts every entry and your coordinator approves it. You see the error rate before anything writes on its own.\"\n\nSame system. The second version tells her she keeps control, and it gives her a number to watch.\n\n## English\n\n- *\"Pushes it straight into\"* reads as reckless in a risk conversation. Prefer **\"drafts it for approval.\"**\n- You said *\"we will guarantee\"* twice. In US business English that is a contractual word. Use **\"we'll commit to\"** or **\"the target is.\"**\n\n## For Friday's proposal\n\nLead with the approval step and the 30-day error report, not the hours saved. The hours are the reason she'll sign; the control is the reason she'll let you start.",
+   "linea": 27,
+   "crudo": "- [ ] **Atlas Freight scoping call** — you sold the pilot before Dana finished naming the problem; one question would have bought you the close <!-- coa-1021-atlas · 2026-10-22 07:40 -->",
+   "trabajo": "coach",
+   "estado": "pendiente",
+   "comentarios": [],
+   "hoy": true
+  },
+  {
+   "id": "coa-1021-ftable",
+   "junta": "Founders' Table planning with Sofia Herrera",
+   "fecha_junta": "2026-10-21",
+   "cuerpo": "## What happened\n\nA 25-minute planning session for Saturday's demo night. Agenda: speaker order, the RSVP gap (19 confirmed against the 25+ goal), food budget. You arrived with a finished run of show and walked through it in four minutes. Sofia had a different speaker order in her notes; she didn't bring it up until you asked \"anything else?\" at the very end.\n\n## What worked\n\n- **The RSVP problem got an owner and a deadline.** \"Each of us texts eight people by Thursday night\" is concrete, split evenly, and checkable.\n- **You cut the budget debate short with a number.** \"$14 a head, pizza and one dessert, done.\" She agreed in one line.\n\n## The one thing to change\n\n**Ask before you decide what lands on someone else.** Speaker order, the MC, and who handles check-in all land on Sofia on Saturday night, not on you. You decided all three. She agreed, but the agreement was thin: her *\"sure, that works\"* came after a three-second pause both times.\n\nThe question to ask the person it lands on:\n\n> \"You're the one running the floor Saturday. What order would make your night easier?\"\n\n## ✍️ The better line\n\nWhat you said:\n> \"Okay so the order is Liam, then the two logistics teams, then Omar closes. I'll MC.\"\n\nWhat keeps her in it:\n> \"Here's a first cut on the order. You know the room better than I do. What would you change?\"\n\nTen more seconds. She brings her notes out, and on Saturday it's her plan too.\n\n## English\n\n- *\"Okay so\"* opened four of your turns. Once is natural; four times it reads as rushing. Drop it and start with the point.\n- Good use of **\"let's lock it\"** to close a decision. Keep it.\n\n## For tonight\n\nWhen you text your eight people, send Sofia the draft order with one question: \"Swap anything?\" That repairs the three decisions without reopening them.",
+   "linea": 28,
+   "crudo": "- [ ] **Founders' Table planning** — clear on the run of show, but you decided three things that were Sofia's to decide <!-- coa-1021-ftable · 2026-10-22 07:42 -->",
+   "trabajo": "coach",
+   "estado": "pendiente",
+   "comentarios": [],
+   "hoy": true
+  },
+  {
+   "id": "coa-1020-cs210",
+   "junta": "CS 210 project check-in with Prof. Priya Nair",
+   "fecha_junta": "2026-10-20",
+   "cuerpo": "## What happened\n\nFifteen minutes at office hours to show the retrieval prototype for your final project. Prof. Nair asked one question twice: *\"How do you know it's retrieving the right note and not just a plausible one?\"* Both times you answered by showing another feature: the citation link, then the re-ranking step.\n\n## What worked\n\n- **The demo was tight.** Two queries, both answered with sources, under three minutes. She said \"that's further along than most,\" and she doesn't say it often.\n- **You admitted the gap once you saw it.** \"Honestly I haven't measured that\" (cut the *honestly*) was the right move, and her tone changed after it.\n\n## The one thing to change\n\n**When an evaluator repeats a question, the answer is evidence, not capability.** A professor's job is grading what is shown to be true. A new feature tells her what the system *can* do; she asked what it *does* do, on how many cases, with what error.\n\nThe sentence that would have ended it in one turn:\n\n> \"I haven't measured it yet. My plan is 30 questions with known answers and a hit rate at top-3. Would that satisfy the evaluation section?\"\n\n## ✍️ The better line\n\nWhat you said:\n> \"So it also re-ranks, so the top one is usually right.\"\n\nWhat an evaluator wants:\n> \"On the ten queries I tried, the right note was first in seven. I'll run thirty before the milestone.\"\n\n*Usually* is the word that made her ask a second time.\n\n## English\n\n- You used **\"basically\"** five times in fifteen minutes. In an academic setting it shrinks your claims. Drop it.\n\n## For the milestone (due Nov 3)\n\nBuild the 30-question test set this week. It is two hours of work and it is the evaluation section of your report.",
+   "linea": 24,
+   "crudo": "- [ ] **CS 210 office hours** — strong demo, but you answered her doubt with more features instead of the evidence she asked for <!-- coa-1020-cs210 · 2026-10-21 07:35 -->",
+   "trabajo": "coach",
+   "estado": "pendiente",
+   "comentarios": [],
+   "hoy": false
+  }
+ ],
+ "aprendizaje": {
+  "estudio": {
+   "items": [
+    {
+     "id": "est-goal-constraints",
+     "texto": "📘 **The Goal, chapters 1–12: finding the constraint** — Before Friday's Atlas proposal: their dispatch backlog is a bottleneck story, and Goldratt is the cleanest way to say it · you sent it · ~35 min · [[the-goal-finding-the-constraint_study]]",
+     "linea": 17,
+     "crudo": "- [ ] 📘 **The Goal, chapters 1–12: finding the constraint** — Before Friday's Atlas proposal: their dispatch backlog is a bottleneck story, and Goldratt is the cleanest way to say it · you sent it · ~35 min · [[the-goal-finding-the-constraint_study]] <!-- est-goal-constraints · 14 oct · IU -->",
+     "estado": "pendiente",
+     "cuadrante": "iu",
+     "suyo": true,
+     "fecha": "14 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): The Goal, chapters 1–12: finding the constraint.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the five focusing steps and why local efficiency hides the constraint. Use Goldratt's The Goal and the 'Theory of Constraints' chapter of Beyond the Goal. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-jobs-to-be-done",
+     "texto": "🧩 **Jobs to be done: what a small firm actually hires an AI ops service for** — MKT 310 case next week, and it is the question Northbeam's landing page still can't answer in one line · ~25 min · [[jobs-to-be-done-small-firms_study]]",
+     "linea": 20,
+     "crudo": "- [ ] 🧩 **Jobs to be done: what a small firm actually hires an AI ops service for** — MKT 310 case next week, and it is the question Northbeam's landing page still can't answer in one line · ~25 min · [[jobs-to-be-done-small-firms_study]] <!-- est-jobs-to-be-done · 16 oct · iu -->",
+     "estado": "pendiente",
+     "cuadrante": "iu",
+     "suyo": false,
+     "fecha": "16 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): Jobs to be done: what a small firm actually hires an AI ops service for.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the difference between the functional, emotional and social job, and the 'firing' moment. Use Christensen's 'Know Your Customers' Jobs to Be Done' (HBR, 2016) and Bob Moesta's milkshake interview. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-ml1-what-memory-is",
+     "texto": "🧠 **What an AI agent's memory actually is: context, retrieval and files** — First stop of the memory-layer track. Jarvis already uses all three; this names which one each job leans on · ~25 min · [[agent-memory-three-kinds_study]]",
+     "linea": 23,
+     "crudo": "- [ ] 🧠 **What an AI agent's memory actually is: context, retrieval and files** — First stop of the memory-layer track. Jarvis already uses all three; this names which one each job leans on · ~25 min · [[agent-memory-three-kinds_study]] <!-- est-ml1-what-memory-is · 12 oct · in -->",
+     "estado": "pendiente",
+     "cuadrante": "in",
+     "suyo": false,
+     "fecha": "12 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): What an AI agent's memory actually is: context, retrieval and files.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: when to put something in the context window, when to retrieve it, and when to write it to a file the agent reads. Use Anthropic's 'Building effective agents' post and Lilian Weng's 'LLM Powered Autonomous Agents'. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-ml2-index-vs-search",
+     "texto": "🔎 **An index vs. search: why a map of your notes beats semantic search at small scale** — Your CS 210 project assumes search; Prof. Nair asked how you know it retrieves the right note · ~20 min · [[index-vs-search_study]]",
+     "linea": 26,
+     "crudo": "- [ ] 🔎 **An index vs. search: why a map of your notes beats semantic search at small scale** — Your CS 210 project assumes search; Prof. Nair asked how you know it retrieves the right note · ~20 min · [[index-vs-search_study]] <!-- est-ml2-index-vs-search · 15 oct · IN -->",
+     "estado": "pendiente",
+     "cuadrante": "in",
+     "suyo": true,
+     "fecha": "15 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): An index vs. search: why a map of your notes beats semantic search at small scale.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: precision vs. recall at 500 notes vs. 500,000, and how to measure a hit rate. Use the BM25 vs. dense retrieval comparisons in the BEIR benchmark paper. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-karpathy-intro-llms",
+     "texto": "🎥 **Karpathy's 'Intro to Large Language Models' (the 1-hour talk)** — CS 210 midterm covers pretraining vs. fine-tuning; this talk is the clearest hour on it · you sent it · ~60 min · [[karpathy-intro-to-llms_study]]",
+     "linea": 29,
+     "crudo": "- [ ] 🎥 **Karpathy's 'Intro to Large Language Models' (the 1-hour talk)** — CS 210 midterm covers pretraining vs. fine-tuning; this talk is the clearest hour on it · you sent it · ~60 min · [[karpathy-intro-to-llms_study]] <!-- est-karpathy-intro-llms · 9 oct · nu -->",
+     "estado": "pendiente",
+     "cuadrante": "nu",
+     "suyo": false,
+     "fecha": "9 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): Karpathy's 'Intro to Large Language Models' (the 1-hour talk).\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the 'LLM as an operating system' frame and the jailbreak/prompt-injection section. Use Andrej Karpathy's 'Intro to Large Language Models' talk on YouTube and his 'State of GPT' talk. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-aristotle-eudaimonia",
+     "texto": "📜 **Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I)** — PHIL 120 reading response due Monday; Prof. Mendel wants the function argument in your own words · ~20 min · [[aristotle-eudaimonia_study]]",
+     "linea": 32,
+     "crudo": "- [ ] 📜 **Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I)** — PHIL 120 reading response due Monday; Prof. Mendel wants the function argument in your own words · ~20 min · [[aristotle-eudaimonia_study]] <!-- est-aristotle-eudaimonia · 18 oct · nu -->",
+     "estado": "pendiente",
+     "cuadrante": "nu",
+     "suyo": false,
+     "fecha": "18 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): Aristotle's eudaimonia in 20 minutes (Nicomachean Ethics, Book I).\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: the function (ergon) argument and why happiness is an activity, not a feeling. Use Nicomachean Ethics Book I (Ross translation), chapters 7–10. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-pricing-pilots",
+     "texto": "💵 **How to price a paid pilot: fixed fee, success fee or retainer** — Marco wants a number for Atlas by Thursday night; you have three models and no criterion · ~25 min · [[pricing-paid-pilots_study]]",
+     "linea": 35,
+     "crudo": "- [ ] 💵 **How to price a paid pilot: fixed fee, success fee or retainer** — Marco wants a number for Atlas by Thursday night; you have three models and no criterion · ~25 min · [[pricing-paid-pilots_study]] <!-- est-pricing-pilots · 19 oct · in -->",
+     "estado": "pendiente",
+     "cuadrante": "in",
+     "suyo": false,
+     "fecha": "19 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): How to price a paid pilot: fixed fee, success fee or retainer.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: value-based pricing for a first client and how to make the pilot convert to a contract. Use Patrick Campbell's pricing interviews and the 'Value-based pricing' chapter of Alan Weiss's Value-Based Fees. Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    },
+    {
+     "id": "est-ml3-forgetting",
+     "texto": "🧹 **Forgetting on purpose: pruning, decay and stale facts in a memory layer** — Third stop of the memory-layer track; Jarvis has notes from August that still read as current · ~20 min · [[forgetting-on-purpose_study]]",
+     "linea": 38,
+     "crudo": "- [ ] 🧹 **Forgetting on purpose: pruning, decay and stale facts in a memory layer** — Third stop of the memory-layer track; Jarvis has notes from August that still read as current · ~20 min · [[forgetting-on-purpose_study]] <!-- est-ml3-forgetting · 20 oct · nn -->",
+     "estado": "pendiente",
+     "cuadrante": "nn",
+     "suyo": false,
+     "fecha": "20 oct",
+     "correlo": [
+      "Deep study session (~1.5 h): Forgetting on purpose: pruning, decay and stale facts in a memory layer.\n\nContext: I'm Pablo, a student in Boston building Northbeam (AI operations for small firms) and this panel, Jarvis. I already read the 80/20 note on this in my study queue.\n\nRun it in three blocks:\n1. (20 min) Ask me five questions that test whether I understood the mechanism, one at a time. Don't give the answer until I try.\n2. (45 min) Go deeper on: how to mark a fact as replaced without deleting it, and when a note should expire. Use the 'memory stream' and reflection design in the Generative Agents paper (Park et al., 2023). Show me where the idea breaks, with one concrete counter-example.\n3. (25 min) Make me apply it to one real decision this week (Northbeam, Founders' Table, or a class). I write, you push back.\n\nClose by asking me to explain it in my own words in six lines, then give me three flashcards (term — meaning) from what I got wrong."
+     ]
+    }
+   ],
+   "aprendidos": 2,
+   "no_utiles": 1,
+   "abiertos": 8
+  },
+  "preguntas": [],
+  "subrayados": [
+   {
+    "id": "ap-sub-1022-goal",
+    "texto": "**\"An hour lost at a bottleneck is an hour lost for the entire system.\"** — *The Goal*, Eliyahu M. Goldratt · you highlighted it on Oct 14; it is the opening line for Friday's Atlas proposal",
+    "linea": 64,
+    "cuando": "2026-10-22",
+    "url": "",
+    "correlo": [],
+    "hoy": true,
+    "crudo": "- [ ] **\"An hour lost at a bottleneck is an hour lost for the entire system.\"** — *The Goal*, Eliyahu M. Goldratt · you highlighted it on Oct 14; it is the opening line for Friday's Atlas proposal <!-- ap-sub-1022-goal · 2026-10-22 -->"
+   },
+   {
+    "id": "ap-sub-1022-ethics",
+    "texto": "**\"One swallow does not make a spring, nor does one day.\"** — *Nicomachean Ethics*, Aristotle · Book I, ch. 7; the line Prof. Mendel will ask about Monday",
+    "linea": 66,
+    "cuando": "2026-10-22",
+    "url": "",
+    "correlo": [],
+    "hoy": true,
+    "crudo": "- [ ] **\"One swallow does not make a spring, nor does one day.\"** — *Nicomachean Ethics*, Aristotle · Book I, ch. 7; the line Prof. Mendel will ask about Monday <!-- ap-sub-1022-ethics · 2026-10-22 -->"
+   }
+  ],
+  "gustaron": 23,
+  "no_gustaron": 9,
+  "tarjetas": [
+   {
+    "titulo": "Constraint",
+    "categoria": "Study",
+    "linea": 142,
+    "crudo": "- **proximo:** 2026-10-20 · **racha:** 3 · **estabilidad:** 6.2 · **dificultad:** 5.1 · **fuente:** study room",
+    "proximo": "2026-10-20",
+    "racha": 3,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 2,
+     "bien": 7,
+     "facil": 16
+    },
+    "pregunta": "Constraint",
+    "respuesta": "the one step that limits the whole system's output",
+    "doble": true,
+    "invertida": false
+   },
+   {
+    "titulo": "Throughput",
+    "categoria": "Study",
+    "linea": 147,
+    "crudo": "- **proximo:** 2026-10-21 · **racha:** 1 · **estabilidad:** 2.4 · **dificultad:** 6.0 · **fuente:** study room",
+    "proximo": "2026-10-21",
+    "racha": 1,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 1,
+     "bien": 3,
+     "facil": 8
+    },
+    "pregunta": "the rate at which the system makes money through sales, not through production",
+    "respuesta": "Throughput",
+    "doble": true,
+    "invertida": true
+   },
+   {
+    "titulo": "Stability",
+    "categoria": "Study",
+    "linea": 152,
+    "crudo": "- **proximo:** 2026-10-22 · **racha:** 4 · **estabilidad:** 11.8 · **dificultad:** 4.2 · **fuente:** study room",
+    "proximo": "2026-10-22",
+    "racha": 4,
+    "previa": {
+     "otra-vez": 2,
+     "dificil": 6,
+     "bien": 14,
+     "facil": 31
+    },
+    "pregunta": "Stability",
+    "respuesta": "days until the chance of recalling a card falls to 90%",
+    "doble": true,
+    "invertida": false
+   },
+   {
+    "titulo": "What are the two files that make up a…",
+    "categoria": "CS 210 — Applied AI",
+    "linea": 61,
+    "crudo": "- **proximo:** 2026-10-22 · **racha:** 2 · **estabilidad:** 3.9 · **dificultad:** 5.6 · **fuente:** CS 210 notes",
+    "proximo": "2026-10-22",
+    "racha": 2,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 2,
+     "bien": 5,
+     "facil": 12
+    },
+    "pregunta": "What are the two files that make up an LLM, per Karpathy?",
+    "respuesta": "the parameters and the code that runs them",
+    "doble": false,
+    "invertida": false
+   },
+   {
+    "titulo": "Why does fine-tuning change format mo…",
+    "categoria": "CS 210 — Applied AI",
+    "linea": 66,
+    "crudo": "- **proximo:** 2026-10-21 · **racha:** 0 · **estabilidad:** 0.6 · **dificultad:** 7.1 · **fuente:** CS 210 notes",
+    "proximo": "2026-10-21",
+    "racha": 0,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 1,
+     "bien": 2,
+     "facil": 5
+    },
+    "pregunta": "Why does fine-tuning change format more than knowledge?",
+    "respuesta": "the knowledge was compressed in pretraining; fine-tuning on a small curated set mostly shapes how the model answers",
+    "doble": false,
+    "invertida": false
+   },
+   {
+    "titulo": "Ergon",
+    "categoria": "PHIL 120 — Ethics of Happiness",
+    "linea": 88,
+    "crudo": "- **proximo:** 2026-10-22 · **racha:** 1 · **estabilidad:** 2.1 · **dificultad:** 5.8 · **fuente:** PHIL 120 notes",
+    "proximo": "2026-10-22",
+    "racha": 1,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 1,
+     "bien": 4,
+     "facil": 9
+    },
+    "pregunta": "Ergon",
+    "respuesta": "the characteristic function of a thing; for humans, rational activity",
+    "doble": true,
+    "invertida": false
+   },
+   {
+    "titulo": "Brand positioning statement (the four…",
+    "categoria": "MKT 310 — Brand Strategy",
+    "linea": 104,
+    "crudo": "- **proximo:** 2026-10-19 · **racha:** 2 · **estabilidad:** 4.4 · **dificultad:** 6.4 · **fuente:** MKT 310 notes",
+    "proximo": "2026-10-19",
+    "racha": 2,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 2,
+     "bien": 6,
+     "facil": 13
+    },
+    "pregunta": "Brand positioning statement (the four parts)",
+    "respuesta": "for [target], [brand] is the [frame of reference] that [point of difference], because [reason to believe]",
+    "doble": false,
+    "invertida": false
+   },
+   {
+    "titulo": "Instead of \"we will guarantee\" in a r…",
+    "categoria": "English",
+    "linea": 121,
+    "crudo": "- **proximo:** 2026-10-22 · **racha:** 0 · **estabilidad:** 0.9 · **dificultad:** 6.7 · **fuente:** coach",
+    "proximo": "2026-10-22",
+    "racha": 0,
+    "previa": {
+     "otra-vez": 1,
+     "dificil": 1,
+     "bien": 3,
+     "facil": 7
+    },
+    "pregunta": "Instead of \"we will guarantee\" in a risk conversation",
+    "respuesta": "\"we'll commit to\" or \"the target is\" — guarantee reads as a contractual promise",
+    "doble": true,
+    "invertida": false
+   }
+  ],
+  "esperan": 0,
+  "mazo_total": 64,
+  "proxima_tarjeta": "2026-10-23",
+  "categorias": [
+   "Study",
+   "CS 210 — Applied AI",
+   "MKT 310 — Brand Strategy",
+   "PHIL 120 — Ethics of Happiness",
+   "English",
+   "Faith"
+  ]
+ },
+ "linkedin": {
+  "borradores": [
+   {
+    "id": "li-2026-10-14-ethics",
+    "estado": "publicado",
+    "origen": "pablo",
+    "pilar": "Ideas",
+    "apertura": "A question",
+    "creado": "2026-10-13",
+    "hora": "2026-10-15T08:15",
+    "programado": "",
+    "post": "Can you be happy and not know it?\n\nAristotle would say yes. For him happiness isn't a feeling; it's doing the human thing well, over a whole life. One good day doesn't count.\n\nI've been testing that against my own weeks. The days I'd rate highest aren't the ones I felt best. They're the ones where I did the hard thing I said I'd do.",
+    "huella": "- From PHIL 120. 41 reactions, 6 comments; Grace Kim's comment is worth a reply.",
+    "boceto": false
+   },
+   {
+    "id": "li-2026-10-17-memory",
+    "estado": "programado",
+    "origen": "linkedin",
+    "pilar": "Building in public",
+    "apertura": "A mistake",
+    "creado": "2026-10-16",
+    "hora": "2026-10-23T08:30",
+    "programado": "2026-10-23T08:30",
+    "post": "My AI assistant kept telling me my focus was classes. It was October. That note was from August.\n\nThe bug wasn't the model. It was memory that never forgot.\n\nWhat fixed it: every fact that can go stale now carries a date, and a new fact replaces the old one without erasing it. The assistant trusts the newest, and I can still see what changed.\n\nMost \"AI memory\" problems I've seen are filing problems.",
+    "huella": "- From the memory-layer track, stop three. Scheduled for Friday morning, your best slot.",
+    "boceto": false
+   },
+   {
+    "id": "li-2026-10-20-founders",
+    "estado": "borrador",
+    "origen": "pablo",
+    "pilar": "Community",
+    "apertura": "A scene",
+    "creado": "2026-10-20",
+    "hora": "",
+    "programado": "",
+    "post": "Saturday, 6 p.m., a classroom with pizza and a projector. Five student teams get seven minutes each to show something that works.\n\nThat's Founders' Table demo night. No pitch decks, no \"we're pre-revenue but.\" A demo, a number, and one ask.\n\nThe rule that made it work last time: every founder leaves with one introduction they didn't have when they walked in.\n\nIf you're in Boston and building something, come. Link in the comments.",
+    "huella": "- Your own draft from Monday, tightened: the rule about the introduction moved up, two adjectives cut.",
+    "boceto": false,
+    "sugerida": "2026-10-24T09:00"
+   },
+   {
+    "id": "li-2026-10-21-bottleneck",
+    "estado": "borrador",
+    "origen": "linkedin",
+    "pilar": "Building Northbeam",
+    "apertura": "A number",
+    "creado": "2026-10-21",
+    "hora": "",
+    "programado": "",
+    "post": "33 hours a week.\n\nThat's how long three coordinators at a small freight broker spend copying load confirmations from email into their system. Same fields, same PDFs, every day.\n\nThe first instinct is to automate the copying. The better question is what breaks if the automation gets one wrong. A mis-keyed rate costs a customer. Nobody gets thanked for the hours saved.\n\nSo the pilot we're proposing starts the other way around: for 30 days the agent drafts every entry and a coordinator approves it. The client sees the error rate before anything writes on its own.\n\nSpeed is the reason they'll sign. Control is the reason they'll let us start.",
+    "huella": "- From yesterday's Atlas Freight call: the guardrail Dana asked for is the post. No client named; the number is rounded to protect them.",
+    "boceto": false,
+    "sugerida": "2026-10-27T08:30"
+   }
+  ],
+  "abiertos": 2,
+  "programados": 1,
+  "semana": {
+   "id": "li-semana-2026-10-16",
+   "texto": "**LinkedIn this week** — two drafts to review, one post going out Friday 8:30, two comments to approve",
+   "linea": 9,
+   "crudo": "- [ ] **LinkedIn this week** — two drafts to review, one post going out Friday 8:30, two comments to approve <!-- li-semana-2026-10-16 · 2026-10-16 -->",
+   "trabajo": "linkedin"
+  }
+ }
+}

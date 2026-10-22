@@ -1,0 +1,51 @@
+{
+ "prep_atlas-freight-pilot_2026-10-22": {
+  "nombre": "Atlas Freight · pilot scope with Dana Whitfield",
+  "ruta": "1 Projects/Northbeam/Atlas Freight/Prep/prep_atlas-freight-pilot_2026-10-22.md",
+  "texto": "# Atlas Freight · pilot scope with Dana Whitfield\n\n**Thu 22 Oct · 11:00–11:45 · Zoom** · Dana Whitfield (COO, Atlas Freight), Marco Ruiz\n\n## Who\nDana runs operations for a 60-person freight broker. Came up through dispatch, signs off on every new tool, and has been burned once by software that \"went live\" before her team trusted it.\n\n## Context\n- Tuesday's call: three coordinators re-key load confirmations by hand, about 11 hours a week each.\n- You promised the pilot proposal for today. Marco's pricing slide is still owed, so the draft numbers are yours.\n- She still owes you the Q3 lane-exception export; without it the baseline is her estimate, not data.\n\n## What she wants\nControl first, hours second. She asked twice who answers when the agent gets a rate wrong.\n\n## What to ask\n1. \"What's the worst thing that could happen if this gets one wrong?\"\n2. \"Who on your team should approve every entry for the first 30 days?\"\n3. \"What error rate would make you comfortable letting it write on its own?\"\n\n## The one outcome\nA yes to the 30-day approval-first pilot, with a start date and the export by Monday.\n\n## Connections\n[[Dana Whitfield]] · [[Marco Ruiz]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_cs210-office-hours_2026-10-22": {
+  "nombre": "CS 210 office hours · Prof. Priya Nair",
+  "ruta": "1 Projects/Classes/CS 210/Prep/prep_cs210-office-hours_2026-10-22.md",
+  "texto": "# CS 210 office hours · Prof. Priya Nair\n\n**Thu 22 Oct · 14:00–14:20 · her office, room 312**\n\n## Who\nProf. Priya Nair teaches CS 210, Applied AI. Values evidence over demos; Monday she pushed back when you answered a doubt with more features.\n\n## Context\n- Final project proposal is due 5 Nov.\n- The vector-space quiz moved to Tuesday 27 Oct.\n\n## What she wants\nA project with a measurable claim and a clean evaluation, not a product tour.\n\n## What to ask\n1. Can the final project use anonymized data from the Atlas Freight pilot?\n2. Is a before/after error rate on 200 real confirmations a strong enough evaluation?\n\n## The one outcome\nHer yes on the data, and the evaluation method agreed in one sentence.\n\n## Connections\n[[Priya Nair]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_ethan-cole_2026-10-22": {
+  "nombre": "Coffee with Ethan Cole",
+  "ruta": "1 Projects/Northbeam/Prep/prep_ethan-cole_2026-10-22.md",
+  "texto": "# Coffee with Ethan Cole\n\n**Thu 22 Oct · 18:30–19:30 · Tatte, Charles Street**\n\n## Who\nEthan Cole, angel investor; backs operators more than technologists. Met him at September's Founders' Table demo night.\n\n## Context\n- He asked on LinkedIn for the Northbeam one-pager before his Friday partner meeting. Send it before you sit down.\n- Northbeam: 1 paying client in pilot, 2 in conversation, reply rate on outreach 18% over 60 days.\n\n## What he wants\nTo know what is repeatable: will client five look like client one?\n\n## What to ask\n1. \"What would you need to see in the next 90 days to take this to your partners?\"\n2. \"Who in your portfolio runs a 30–100 person operations team?\"\n\n## Two numbers to have ready\n- Hours saved per client per week (Atlas target: 25).\n- Proposal-to-close rate so far.\n\n## The one outcome\nOne intro to a portfolio operator, not a check.\n\n## Connections\n[[Ethan Cole]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_founders-table-run-of-show_2026-10-23": {
+  "nombre": "Founders' Table run-of-show · Sofia Herrera",
+  "ruta": "1 Projects/Founders' Table/Prep/prep_founders-table-run-of-show_2026-10-23.md",
+  "texto": "# Founders' Table run-of-show · Sofia Herrera\n\n**Fri 23 Oct · 10:00–10:45 · Student center, room B**\n\n## Who\nSofia Herrera co-runs Founders' Table with you. She owns the venue and the guest list; Tuesday's coach note: you decided three things that were hers to decide.\n\n## Context\n- Demo Night is Saturday 24 Oct, 19:00, at The Loft in Back Bay.\n- 22 confirmed; the week's objective is 25+.\n- Food budget: $400 for 30 people, still waiting on your confirmation.\n\n## What to decide together\n1. Demo order (five teams, 6 minutes each).\n2. Who handles check-in: Liam O'Connor offered.\n3. The last three invites, and who sends them.\n\n## What to ask\n\"Which of these do you want to own, and where do you want me?\"\n\n## The one outcome\nA run-of-show both of you signed off on, and the budget confirmed in the room.\n\n## Connections\n[[Sofia Herrera]] · [[Liam O'Connor]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_marco-sync_2026-10-24": {
+  "nombre": "Weekly sync · Marco Ruiz",
+  "ruta": "1 Projects/Northbeam/Prep/prep_marco-sync_2026-10-24.md",
+  "texto": "# Weekly sync · Marco Ruiz\n\n**Sat 24 Oct · 09:30–10:15 · call**\n\n## Who\nMarco Ruiz, Northbeam cofounder. Owns pricing and the build; you own clients and the story.\n\n## Context\n- His pricing slide for the Atlas proposal was owed on Tuesday.\n- Cold outreach: dental and moving firms reply three times more than 3PLs.\n\n## Agenda\n1. Atlas: what Dana said, and the pilot start date.\n2. Pricing: fixed pilot fee vs. per-load after month one.\n3. Next week's outreach: narrow to dental and moving?\n\n## What to ask\n\"What's blocking the pricing slide, and what do you need from me to finish it today?\"\n\n## The one outcome\nOne pricing model you both defend in front of Dana.\n\n## Connections\n[[Marco Ruiz]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_mkt310-group_2026-10-22": {
+  "nombre": "MKT 310 group work · Liam O'Connor",
+  "ruta": "1 Projects/Classes/MKT 310/Prep/prep_mkt310-group_2026-10-22.md",
+  "texto": "# MKT 310 group work · Liam O'Connor\n\n**Thu 22 Oct · 16:00–17:00 · library, group room 4**\n\n## Who\nLiam O'Connor and two classmates, your brand-audit group for Prof. Okafor's MKT 310.\n\n## Context\n- The audit is due 3 Nov; slides are split four ways.\n- You own the competitor map. Last time you assigned every section in two minutes.\n\n## What to ask\n\"Which part does each of you want to own?\" Then let them pick before you do.\n\n## The one outcome\nEach section has an owner and a draft date before Monday.\n\n## Connections\n[[Liam O'Connor]] · [[Daniel Okafor]]\n",
+  "cortada": false,
+  "obsidian": ""
+ },
+ "prep_grace-kim_2026-10-21": {
+  "nombre": "Grace Kim · mentor call",
+  "ruta": "1 Projects/Northbeam/Prep/prep_grace-kim_2026-10-21.md",
+  "texto": "# Grace Kim · mentor call\n\n**Wed 21 Oct · 15:00–15:45 · call**\n\n## Who\nGrace Kim, mentor; ran operations at a 300-person logistics firm before advising early founders.\n\n## Context\n- She offered two intros to operations leaders once she has a one-page Northbeam offer.\n- Atlas Freight is the first real proof point.\n\n## What she wants\nA one-pager she can forward without editing.\n\n## What to ask\n1. \"What would make an ops leader take this call?\"\n2. \"What would make you hesitate before introducing me?\"\n\n## The one outcome\nHer edits on the one-pager, and the two intros named.\n\n## Connections\n[[Grace Kim]]\n",
+  "cortada": false,
+  "obsidian": ""
+ }
+}
