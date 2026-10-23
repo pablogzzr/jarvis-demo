@@ -6,7 +6,7 @@
   'use strict';
   const BASE = new URL('.', document.currentScript ? document.currentScript.src : location.href).href;
   const KEY = 'jarvis-demo-state-v1';
-  const VER = 'a1aade31';
+  const VER = '52391f85';
 
   /* ── the clock: Thursday 22 Oct 2026, 08:10 in Boston, moving forward in real time ── */
   const DEMO_START = Date.UTC(2026, 9, 22, 12, 10, 0);   /* 08:10 EDT */
@@ -32,6 +32,9 @@
   }
   /* a reset wipes what the panel saved for itself before it starts again (it saves on the way out too) */
   try{ if(sessionStorage.getItem('jarvis-demo-wipe')){ const seen = localStorage.getItem('jarvis-demo-tour-seen'); localStorage.clear(); if(seen) localStorage.setItem('jarvis-demo-tour-seen', seen); sessionStorage.clear(); } }catch(_){}
+  /* every visit through the link starts clean: a new tab wipes what the panel kept from an earlier visit,
+     so the morning, the run and the tour all begin from the top */
+  try{ if(!sessionStorage.getItem('jarvis-demo-visit')){ localStorage.clear(); sessionStorage.setItem('jarvis-demo-visit', '1'); } }catch(_){}
   let state = null;
   try{ state = JSON.parse(sessionStorage.getItem(KEY) || 'null'); }catch(_){}
   function save(){ try{ sessionStorage.setItem(KEY, JSON.stringify(state)); }catch(_){} }
@@ -91,7 +94,7 @@
   window.jarvisDemoReset = function(){
     /* the panel saves its morning on the way out, so stop every write first, then wipe */
     const set = Storage.prototype.setItem; Storage.prototype.setItem = function(){};
-    try{ const seen = localStorage.getItem('jarvis-demo-tour-seen'); localStorage.clear(); sessionStorage.clear(); if(seen) set.call(localStorage, 'jarvis-demo-tour-seen', seen); }catch(_){}
+    try{ const seen = localStorage.getItem('jarvis-demo-tour-seen'); localStorage.clear(); sessionStorage.clear(); set.call(sessionStorage, 'jarvis-demo-visit', '1'); if(seen) set.call(localStorage, 'jarvis-demo-tour-seen', seen); }catch(_){}
     location.reload();
   };
 
