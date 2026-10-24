@@ -1258,8 +1258,8 @@ const idb=()=>new Promise((ok,no)=>{ try{ const r=indexedDB.open('jarvis',1); r.
 const idbPut=(k,v)=>idb().then(db=>new Promise((ok,no)=>{ const t=db.transaction('files','readwrite'); t.objectStore('files').put(v,k); t.oncomplete=ok; t.onerror=()=>no(t.error); }));
 const idbGet=k=>idb().then(db=>new Promise((ok,no)=>{ const q=db.transaction('files').objectStore('files').get(k); q.onsuccess=()=>ok(q.result); q.onerror=()=>no(q.error); }));
 if(LAY.musicType==='file') idbGet('intro-music').then(b=>{ if(b) MUSIC_URL=URL.createObjectURL(b); }).catch(()=>{});
-function musicLabel(){ const t=LAY.musicType||'startup'; return t==='startup'?'original score':t==='bib'?'Back in Black · from the riff':t==='file'?(LAY.musicName||'your song'):t==='off'?'off':'original score'; }
-function musicCfg(){ const t=LAY.musicType||'startup'; if(t==='startup'||t==='bib') return {type:'score'};
+function musicLabel(){ const t=LAY.musicType||'startup'; return t==='startup'?'Back in Black':t==='bib'?'Back in Black · from the riff':t==='file'?(LAY.musicName||'your song'):t==='off'?'off':'original score'; }
+function musicCfg(){ const t=LAY.musicType||'startup'; if(t==='startup'||t==='bib') return window.__demoSong?{type:'off'}:{type:'score'};
   if(t==='file') return MUSIC_URL?{type:'file',url:MUSIC_URL,start:0}:{type:'score'}; return {type:t}; }
 function openMusic(){ const box=$('#mpick'); if(!box||box.querySelector('.mbox')) return;
   box.insertAdjacentHTML('beforeend',`<div class="mbox"><div class="row2"><button class="b" data-music="startup">Jarvis startup</button><button class="b" data-music="bib">Back in Black</button><button class="b" data-music="score">Original score</button><button class="b" data-music="pickfile">A song file from your Mac…</button><button class="b" data-music="off">No sound</button></div>

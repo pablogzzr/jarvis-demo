@@ -6,7 +6,7 @@
   'use strict';
   const BASE = new URL('.', document.currentScript ? document.currentScript.src : location.href).href;
   const KEY = 'jarvis-demo-state-v1';
-  const VER = '52391f85';
+  const VER = 'afa8fc26';
 
   /* ── the clock: Thursday 22 Oct 2026, 08:10 in Boston, moving forward in real time ── */
   const DEMO_START = Date.UTC(2026, 9, 22, 12, 10, 0);   /* 08:10 EDT */
@@ -97,6 +97,41 @@
     try{ const seen = localStorage.getItem('jarvis-demo-tour-seen'); localStorage.clear(); sessionStorage.clear(); set.call(sessionStorage, 'jarvis-demo-visit', '1'); if(seen) set.call(localStorage, 'jarvis-demo-tour-seen', seen); }catch(_){}
     location.reload();
   };
+
+
+  /* The intro's song. Pablo's real Jarvis plays his own copy of Back in Black; the public demo plays AC/DC's
+     official video through YouTube's player instead, shown as a small "now playing" card while the intro runs
+     (YouTube's rules want the player visible), fading out when the intro ends. Without it, the built-in score. */
+  const SONG = { id: 'pAgnJDJN4VA', start: 0 };
+  function songSetup(){
+    if(typeof window.playIntro !== 'function' || document.getElementById('demo-song')) return;
+    const css = document.createElement('style');
+    css.textContent = `#demo-song-wrap{position:fixed;right:18px;bottom:18px;z-index:2147482500;width:256px;background:#0f1311;border:1px solid #2a332e;border-radius:10px;padding:8px;opacity:0;transform:translateY(8px);transition:opacity .4s,transform .4s;pointer-events:none;font:10px/1.4 'Geist Mono',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:#5EE6B0}
+      #demo-song-wrap.on{opacity:1;transform:none;pointer-events:auto}#demo-song-wrap iframe{display:block;width:240px;height:200px;border:0;border-radius:6px;margin-top:6px}`;
+    document.head.appendChild(css);
+    const wrap = document.createElement('div'); wrap.id = 'demo-song-wrap';
+    wrap.innerHTML = '♪ Now playing · AC/DC, Back in Black<div id="demo-song"></div>';
+    document.body.appendChild(wrap);
+    let player = null;
+    window.onYouTubeIframeAPIReady = () => {
+      player = new YT.Player('demo-song', { videoId: SONG.id, width: 240, height: 200,
+        playerVars: { start: SONG.start, controls: 0, playsinline: 1, disablekb: 1, rel: 0, modestbranding: 1 },
+        events: { onReady: () => { window.__demoSong = { ready: true }; }, onError: () => { window.__demoSong = null; } } });
+    };
+    const s = document.createElement('script'); s.src = 'https://www.youtube.com/iframe_api'; s.async = true; document.head.appendChild(s);
+    const fade = (to, ms, done) => { if(!player || !player.getVolume) return; const from = player.getVolume(), t0 = Date.now();
+      const iv = setInterval(() => { const k = Math.min(1, (Date.now() - t0) / ms); try{ player.setVolume(Math.round(from + (to - from) * k)); }catch(_){} if(k >= 1){ clearInterval(iv); done && done(); } }, 60); };
+    const orig = window.playIntro;
+    window.playIntro = function(){
+      if(player && window.__demoSong){
+        try{ player.seekTo(SONG.start, true); player.setVolume(0); player.unMute(); player.playVideo(); fade(85, 1200); wrap.classList.add('on'); }catch(_){}
+        let seen = false; const iv = setInterval(() => { const open = !!(window.JarvisHUD && window.JarvisHUD.isOpen); if(open) seen = true;
+          if(seen && !open){ clearInterval(iv); wrap.classList.remove('on'); fade(0, 1800, () => { try{ player.pauseVideo(); }catch(_){} }); } }, 300);
+      }
+      return orig.apply(this, arguments);
+    };
+  }
+  addEventListener('load', () => setTimeout(songSetup, 300));
 
   /* a small bottom note for actions that would leave the browser in the real Jarvis */
   function demoNote(text){
