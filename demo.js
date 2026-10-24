@@ -6,7 +6,7 @@
   'use strict';
   const BASE = new URL('.', document.currentScript ? document.currentScript.src : location.href).href;
   const KEY = 'jarvis-demo-state-v1';
-  const VER = 'afa8fc26';
+  const VER = '07f27daf';
 
   /* ── the clock: Thursday 22 Oct 2026, 08:10 in Boston, moving forward in real time ── */
   const DEMO_START = Date.UTC(2026, 9, 22, 12, 10, 0);   /* 08:10 EDT */
@@ -102,7 +102,7 @@
   /* The intro's song. Pablo's real Jarvis plays his own copy of Back in Black; the public demo plays AC/DC's
      official video through YouTube's player instead, shown as a small "now playing" card while the intro runs
      (YouTube's rules want the player visible), fading out when the intro ends. Without it, the built-in score. */
-  const SONG = { id: 'pAgnJDJN4VA', start: 0 };
+  const SONG = { id: 'pAgnJDJN4VA', start: (() => { const q = +new URLSearchParams(location.search).get('riff'); return q >= 0 && q < 60 && q ? q : 4; })() };
   function songSetup(){
     if(typeof window.playIntro !== 'function' || document.getElementById('demo-song')) return;
     const css = document.createElement('style');
